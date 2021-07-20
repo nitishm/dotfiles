@@ -1,0 +1,1882 @@
+: 1594660323:0;curl -L https://get.oh-my.fish | fish
+: 1594660323:0;curl -L https://get.oh-my.fish | fish
+: 1594660323:0;omf list
+: 1594660323:0;fish
+: 1594660323:0;fish
+: 1594660323:0;chsh -s fish
+: 1594660323:0;sudo chsh -s fish
+: 1594660323:0;sudo chsh -s fsh
+: 1594660323:0;chsh -s fsh
+: 1594660323:0;chsh -s fish
+: 1594660323:0;fish
+: 1594660323:0;cd github/forks
+: 1594660323:0;ls
+: 1594660323:0;cd meshery-operator
+: 1594660323:0;git status
+: 1594660323:0;git commit -s
+: 1594660323:0;git config --global --edit
+: 1594660323:0;git push
+: 1594660323:0;git config user.email nitish.malhotra@gmail.com
+: 1594660323:0;git config user.name nitishm
+: 1594660323:0;git config user.password
+: 1594660323:0;git config user.password RPan@2020
+: 1594660323:0;git push
+: 1594660323:0;git reset
+: 1594660323:0;git push
+: 1594660323:0;git config user.name Nitish Malhotra
+: 1594660323:0;git reset
+: 1594660323:0;git config
+: 1594660323:0;git config -l
+: 1594660323:0;git config reset.quiet
+: 1594660323:0;git config user.name "Nitish Malhotra"
+: 1594660323:0;git config user.name --replace-all "Nitish Malhotra"
+: 1594660323:0;git config user.email --replace-all "nitish.malhotra@gmail.com"
+: 1594660323:0;git push
+: 1594660323:0;git commit --amend --signoff
+: 1594660323:0;git push --force-with-lease origin master
+: 1594660323:0;git edit config
+: 1594660323:0;git config edit
+: 1594660323:0;git config --edit
+: 1594660323:0;git commit --amend --signoff
+: 1594660323:0;git push --force-with-lease origin master
+: 1594660323:0;cd
+: 1594660323:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;clearcompaudit | xargs chmod g-w,o-w
+: 1594660323:0;compaudit | xargs chmod g-w,o-w
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;dirs -v
+: 1594660323:0;dirs 2
+: 1594660323:0;ls
+: 1594660323:0;pwd
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;git clone https://github.com/powerline/fonts.git
+: 1594660323:0;cd fonts
+: 1594660323:0;./install.sh
+: 1594660323:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1594660323:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;ls -lrta
+: 1594660323:0;dir -h
+: 1594660323:0;dirs
+: 1594660323:0;dirs -h
+: 1594660323:0;dirs -v
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;git pull
+: 1594660323:0;git rebase origin master
+: 1594660323:0;git remote add origin https://github.com/layer5io/meshery-operator.git
+: 1594660323:0;git pull
+: 1594660323:0;git remote add upstream https://github.com/layer5io/meshery-operator.git
+: 1594660323:0;git rebase upstream/master
+: 1594660323:0;git fetch upstreawm
+: 1594660323:0;git fetch upstream
+: 1594660323:0;git rebase upstream/master
+: 1594660323:0;ks
+: 1594660323:0;brew install engarde
+: 1594660323:0;brew tap nitishm/homebrew-engarde
+: 1594660323:0;brew install engarde
+: 1594660323:0;engarde
+: 1594660323:0;brew install gh
+: 1594660323:0;gh 
+: 1594660323:0;source ~/.zshrc
+: 1594660323:0;cd github
+: 1594660323:0;ls
+: 1594660323:0;git clone https://github.com/layer5io/meshery-operator.git
+: 1594660323:0;cd meshery-operator
+: 1594660323:0;gh pr checkout 10
+: 1594660323:0;open -a /Applications/Visual\ Studio\ Code.app/ .
+: 1594660323:0;make
+: 1594660323:0;fish
+: 1594660323:0;git status
+: 1594660323:0;brew install zsh
+: 1594660323:0;chsh -s /usr/local/bin/zsh
+: 1594660323:0;chsh -s zsh
+: 1594660323:0;zsh
+: 1594499581:0;cd github
+: 1594499582:0;https://github.com/kubernetes/kubernetes.git
+: 1594499587:0;git clone https://github.com/kubernetes/kubernetes.git
+: 1594500355:0;kubectl get crds
+: 1594500937:0;bvm
+: 1594568488:0;curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-$\(uname\)-amd64\
+chmod +x ./kind\
+mv ./kind /some-dir-in-your-PATH/kind
+: 1594568491:0;ls
+: 1594568494:0;rm -rf kind
+: 1594568495:0;cd
+: 1594568499:0;mkdir bin
+: 1594568501:0;cd bin
+: 1594568502:0;curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-$\(uname\)-amd64\
+chmod +x ./kind\
+mv ./kind /some-dir-in-your-PATH/kind
+: 1594568504:0;ls
+: 1594568527:0;mv kind /usr/local/bin
+: 1594568529:0;kind
+: 1594568540:0;chmod +x /usr/local/bin/kind
+: 1594568543:0;kind
+: 1594568551:0;ls
+: 1594568553:0;cd ..
+: 1594568555:0;rm -rf bin
+: 1594568562:0;rm -rf /usr/local/bin/kind
+: 1594568583:0;curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-$\(uname\)-amd64\
+chmod +x ./kind\
+mv ./kind /usr/local/bin/kind
+: 1594568585:0;ls
+: 1594568586:0;kind
+: 1594568591:0;kind --help
+: 1594568594:0;rm -rf /usr/local/bin/kind
+: 1594568599:0;\
+COPY\
+brew install kind
+: 1594568604:0;COPY
+: 1594568610:0;kind
+: 1594568632:0;kind create cluster --name kind-playground
+: 1594569182:0;kind delete cluster
+: 1594569190:0;kind create cluster --name playground
+: 1594569228:0;brew install kubectx
+: 1594569251:0;kubectx
+: 1594569267:0;kind delete cluster --name kind-playground
+: 1594569272:0;kind delete cluster --name kind-kind-playground
+: 1594569483:0;kubectx
+: 1594569488:0;kg nodes
+: 1594569494:0;kubectl get nodes 
+: 1594572387:0;kubectl create -f | -
+: 1594572398:0;kubectl create -f | <<EOF\
+kind: Cluster\
+apiVersion: kind.x-k8s.io/v1alpha4\
+nodes:\
+- role: control-plane\
+- role: worker\
+- role: worker\
+EOF
+: 1594572404:0;kubectl create -f | - <<EOF\
+kind: Cluster\
+apiVersion: kind.x-k8s.io/v1alpha4\
+nodes:\
+- role: control-plane\
+- role: worker\
+- role: worker\
+EOF
+: 1594572418:0;kubectl create -f | <<EOF -\
+kind: Cluster\
+apiVersion: kind.x-k8s.io/v1alpha4\
+nodes:\
+- role: control-plane\
+- role: worker\
+- role: worker\
+EOF
+: 1594572441:0;vim /tmp/kind.yaml
+: 1594572458:0;kg nodes
+: 1594572461:0;kubectl get nodes
+: 1594572485:0;kind delete cluster --name playground
+: 1594572497:0;kind create cluster --config /tmp/kind.yaml
+: 1594576734:0;kubectl get nodes
+: 1594576799:0;(\
+  set -x; cd "$(mktemp -d)" &&\
+  curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/krew.{tar.gz,yaml}" &&\
+  tar zxvf krew.tar.gz &&\
+  KREW=./krew-"$(uname | tr '[:upper:]' '[:lower:]')_amd64" &&\
+  "$KREW" install --manifest=krew.yaml --archive=krew.tar.gz &&\
+  "$KREW" update\
+)
+: 1594576814:0;ls .krew
+: 1594576828:0;mv  .krew/bin/kubectl-krew /usr/local/bin
+: 1594576837:0;source ~/.zshrc
+: 1594576841:0;kubectl krew
+: 1594576852:0;begin\
+  set -x; set temp_dir (mktemp -d); cd "$temp_dir" &&\
+  curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/krew.{tar.gz,yaml}" &&\
+  tar zxvf krew.tar.gz &&\
+  set KREWNAME krew-(uname | tr '[:upper:]' '[:lower:]')_amd64 &&\
+  ./$KREWNAME install \\
+    --manifest=krew.yaml --archive=krew.tar.gz &&\
+  set -e KREWNAME; set -e temp_dir\
+end
+: 1594576912:0;kubectl krew install tree
+: 1594576919:0;kubectl tree
+: 1594576921:0;kubectl tree --help
+: 1594576932:0;kubectl
+: 1594576935:0;kubectl tree
+: 1594576968:0;vim ~/.zshrc
+: 1594576978:0;source ~/.zshrc
+: 1594576985:0;kubectl tree deployment
+: 1594576990:0;kubectl tree deployment 
+: 1594576999:0;kubectx
+: 1594577025:0;kubectl krew install getall
+: 1594577038:0;kubectl krew install get-all
+: 1594660323:0;curl -L https://get.oh-my.fish | fish
+: 1594660323:0;brew
+: 1594660323:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\
+
+: 1594660323:0;brew install fish
+: 1594660323:0;sudo chsh -s fsh
+: 1594660323:0;chsh -s fish
+: 1594660323:0;fish
+: 1594590869:0;wget export PATH="${PATH}:${HOME}/.krew/bin"
+: 1594590876:0;wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
+: 1594590880:0;brew install wget
+: 1594590921:0;wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
+: 1594590944:0;mkdir dotfiles
+: 1594590954:0;mv .kubectl_aliases dot
+: 1594590957:0;vim ~/.zshrc
+: 1594591006:0;source ~/.zshrc
+: 1594591237:0;vim ~/.zshrc
+: 1594591247:0;source ~/.zshrc
+: 1594591252:0;k
+: 1594591254:0;kg
+: 1594591259:0;k g
+: 1594591265:0;kgp
+: 1594591279:0;klo -f
+: 1594591296:0;kk
+: 1594591306:0;kpo
+: 1594591308:0;ex
+: 1594591312:0;lo
+: 1594591314:0;l lo
+: 1594591316:0;k lo
+: 1594591331:0;function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
+: 1594591341:0;k
+: 1594591360:0;ksysgpo
+: 1594591383:0;k
+: 1594591389:0;kgpo
+: 1594591392:0;kgp
+: 1594591399:0;kpo
+: 1594591401:0;kg
+: 1594591403:0;kgpo
+: 1594591405:0;kgp
+: 1594591408:0;kgd
+: 1594591418:0;kgd --all
+: 1594591426:0;ls
+: 1594591430:0;rm -rf do
+: 1594591432:0;rm -rf dot
+: 1594591433:0;ls
+: 1594591438:0;ls dotfiles
+: 1594591441:0;ls dotfiles -lrta
+: 1594591446:0;ls -lrta dotfiles
+: 1594591455:0;cd dotfiles
+: 1594591457:0;wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
+: 1594591461:0;source ~/.zshrc
+: 1594591465:0;kgpo
+: 1594591470:0;kdpo
+: 1594591478:0;kex
+: 1594591491:0;kgsyspo
+: 1594591492:0;kgsysgpo
+: 1594591500:0;ksysgpo
+: 1594591509:0;ksysgpooyaml
+: 1594591517:0;ksysgpo
+: 1594591524:0;kdpoall
+: 1594591553:0;brew install kube-ps1
+: 1594591562:0;source ~/.zshrc
+: 1594591584:0;vim ~/.zshrc
+: 1594591598:0;source ~/.zshrc
+: 1594591657:0;git remote add upstream https://github.com/layer5io/meshery-operator.git
+: 1594591661:0;git config --edit
+: 1594591678:0;kubectl rebase
+: 1594591683:0;git pull
+: 1594591686:0;git pull origin remote
+: 1594591701:0;git pull upstream master
+: 1594591709:0;git branches
+: 1594591711:0;git branch
+: 1594591722:0;git checkout -b nitishm/istio/crds
+: 1594592992:0;go get -v ./...
+: 1594593098:0;kubectl get crds
+: 1594593101:0;kubectl get crds -w
+: 1594593107:0;kubectl get crds --watch
+: 1594593799:0;go run cmd/manager/main.go
+: 1594593891:0;git status
+: 1594593897:0;git add -A
+: 1594593921:0;git commit -m "Scaffold synchronizer" -m "Sample synchronizer for discovering Istio"
+: 1594593923:0;git push 
+: 1594598996:0;go run cmd/manager/main.go
+: 1594599002:0;ls
+: 1594599005:0;go run cmd/meshsync/main.go
+: 1594599087:0;kubectl --version
+: 1594599092:0;kubectl version
+: 1594599102:0;go get k8s.io/client-go@v0.18.0
+: 1594599109:0;rm -rf go.sum
+: 1594599112:0;go mod tidy
+: 1594599114:0;go run cmd/meshsync/main.go
+: 1594599319:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594599416:0;cd
+: 1594599418:0;cd github
+: 1594599418:0;ls
+: 1594599440:0;cd /tmp
+: 1594599444:0;wget https://raw.githubusercontent.com/istio/istio/release-1.0/install/kubernetes/helm/istio/templates/crds.yaml
+: 1594599445:0;ls
+: 1594599450:0;kubectl create -f crds.yaml
+: 1594599468:0;kill -9 79272
+: 1594599493:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594599596:0;kill -9 80640
+: 1594599597:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594599808:0;kill -9 84068
+: 1594599810:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594599827:0;kill -9 84530
+: 1594599856:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594599912:0;kill -9 84546
+: 1594599918:0;kill -9 85282
+: 1594599919:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594601612:0;kubectl api-resources
+: 1594601618:0;kubectl api-resources | grep crd
+: 1594601650:0;kubectl api-versions | grep crd
+: 1594601660:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594602348:0;kubectl get crds --help
+: 1594602356:0;kubectl get crds --raw
+: 1594602360:0;kubectl get crds --help
+: 1594602388:0;kubectl get crds --debug
+: 1594602688:0;kubectl proxy --port=8080 &
+: 1594604956:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594606051:0;kill -9 5189
+: 1594606079:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594646842:0;kill -9 5863
+: 1594646846:0;kill -9 7215
+: 1594646919:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594646972:0;kill -9 5223
+: 1594647008:0;kill -9 5906 7287 79288 80654 84084 85298
+: 1594647454:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594647679:0;kill -9 12294 12310 
+: 1594647713:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594647739:0;kill -9 12468 12482
+: 1594647742:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594647992:0;kill -9 15368 15392
+: 1594648002:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594648060:0;kill -9 15670 15684
+: 1594648063:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594648088:0;kill -9 16040 16056
+: 1594648090:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594649799:0;cd
+: 1594649803:0;cd github/meshery-operator
+: 1594649809:0;gh pr checkout 10
+: 1594649813:0;open -a /Applications/Visual\ Studio\ Code.app/ .
+: 1594649840:0;brew install spectable
+: 1594649843:0;brew install spectacle
+: 1594651436:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594660496:0;kill -9 45494
+: 1594660501:0;tree
+: 1594660507:0;brew install tree
+: 1594660632:0;tree
+: 1594661959:0;kubectl get crds
+: 1594661981:0;kubectl api-versions | grep crd
+: 1594661987:0;kubectl api-resources | grep crd
+: 1594662043:0;kubectl api-resources --show-labels
+: 1594662059:0;kubectl get crds --show-labels
+: 1594663629:0;git status
+: 1594663634:0;make run
+: 1594663639:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594663647:0;git add -A
+: 1594663701:0;git commit -s -m "Code scaffold for meshery kubernetes native controller" -m "Meshsync design"
+: 1594663702:0;git push
+: 1594663757:0;git commit --amend
+: 1594663763:0;git status
+: 1594663766:0;git push -f
+: 1594668223:0;git status
+: 1594668227:0;git log
+: 1594668234:0;git config --edit
+: 1594668253:0;git status
+: 1594668275:0;git commit --amend --signoff
+: 1594668289:0;git status
+: 1594668292:0;git pull
+: 1594668299:0;git status
+: 1594668302:0;git commit --amend --signoff
+: 1594668307:0;cd ..
+: 1594668313:0;cd ../fonts
+: 1594668318:0;cd ../github/forks/meshery-operator
+: 1594668319:0;;s
+: 1594668320:0;ls
+: 1594668326:0;git commit --amend --signoff
+: 1594668340:0;git push --force-with-lease origin nitishm/istio/crds
+: 1594668364:0;git log
+: 1594668525:0;git checkout 5bd627c9bf9c5e80a58afbff42d4b3ecbfef2d6b
+: 1594668530:0;git commit --amend --signoff
+: 1594668538:0;git push --force-with-lease origin nitishm/istio/crds
+: 1594668608:0;git checkout HEAD
+: 1594668609:0;git log
+: 1594668620:0;git checkout --hard HEAD
+: 1594668622:0;git status
+: 1594668629:0;git checkout nitishm/istio/crds
+: 1594668633:0;git pull
+: 1594668635:0;git log
+: 1594668648:0;git rebase -i
+: 1594668658:0;git rebase -i HEAD~2
+: 1594668691:0;git rebase --continue
+: 1594668706:0;cd ../
+: 1594668709:0;rm -rf meshery-operator
+: 1594668717:0;git clone https://github.com/nitishm/meshery-operator.git
+: 1594668720:0;cd meshery-operator
+: 1594668723:0;git checkout nitishm/istio/crds
+: 1594668725:0;git status
+: 1594668750:0;gh pr checkout 11
+: 1594668754:0;git status
+: 1594668756:0;git log
+: 1594668762:0;git rebase -i HEAD~2
+: 1594668784:0;git commit --amend
+: 1594668814:0;git rebase --continue
+: 1594668818:0;git push --force-with-lease origin nitishm/istio/crds
+: 1594668880:0;git rebase -i HEAD~2
+: 1594668936:0;git rebase --continue
+: 1594668939:0;git push --force-with-lease origin nitishm/istio/crds
+: 1594669282:0;hyper
+: 1594669285:0;hyper --help
+: 1594669294:0;hyper list
+: 1594669298:0;hyper list-remoate
+: 1594669300:0;hyper list-remote
+: 1594669330:0;hyper install hyper-gruvbox-material
+: 1594669422:0;hyper install hyper-pane
+: 1594669470:0;âƒ¤ƒ‚A
+: 1594669539:0;hyper install hypercwd
+: 1594669548:0;cd github
+: 1594669615:0;hyper install hyper-material-theme
+: 1594669702:0;hyper install hyper-gruvbox-material
+: 1594669706:0;hyper
+: 1594669711:0;hyper --help
+: 1594669719:0;hyper docs
+: 1594669726:0;hyper ls
+: 1594669737:0;jyper h
+: 1594669739:0;hyper h
+: 1594669741:0;h
+: 1594669748:0;hyper
+: 1594669766:0;hyper hyper-gruvbox-material
+: 1594669848:0;open ~/.hyper.js
+: 1594669855:0;vim ~/.hyper.js
+: 1594669961:0;cd github/forks/meshery-operator
+: 1594669963:0;pwd
+: 1594670132:0;cd ~/.hyper_plugins
+: 1594670136:0;npm install gitrocket
+: 1594670141:0;brew install npm
+: 1594670217:0;hyper install gitrocket
+: 1594670227:0;hyper install hyper-dracula
+: 1594670241:0;ls
+: 1594670266:0;hyper install hyper-cat-cursor
+: 1594670271:0;ls
+: 1594670301:0;vim ~/.hyper.js
+: 1594670340:0;ls
+: 1594670345:0;helloworld
+: 1594670363:0;hyper install hyper-cat-cursor
+: 1594670367:0;vim ~/.hyper.js
+: 1594670374:0;nvim ~/.hyper.js
+: 1594670406:0;ls
+: 1594670416:0;hyper uninstall hyper-cat-cursor
+: 1594670418:0;vim ~/.hyper.js
+: 1594670460:0;ls
+: 1594670461:0;clear
+: 1594684576:0;cd github/forks/meshery-operator
+: 1594684580:0;open -a /Applications/Visual\ Studio\ Code.app/ .
+: 1594689517:0;clear
+: 1594689558:0;git clone https://github.com/tylerreckart/hyperzsh
+: 1594689569:0;ls
+: 1594689574:0;mv hyperzsh /tmp
+: 1594689578:0;cd /tmp
+: 1594689580:0;cd hyperzsh && cp -R hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme
+: 1594689595:0;vim ~/.zshrc
+: 1594689635:0;source ~/.zshrc
+: 1594689685:0;pwd
+: 1594689686:0;ls
+: 1594689694:0;cd
+: 1594689710:0;cd github
+: 1594689711:0;ls
+: 1594689713:0;cd meshery-operator
+: 1594689714:0;ls
+: 1594689719:0;cd
+: 1594689767:0;ls
+: 1594689770:0;clear
+: 1594689771:0;ls
+: 1594689877:0;vim ~/.oh-my-zsh/themes/hyperzsh.zsh-theme
+: 1594689900:0;source ~/.zshrc
+: 1594689907:0;cd github/forks
+: 1594689907:0;ls
+: 1594689909:0;cd meshery-operator
+: 1594689909:0;ls
+: 1594690144:0;hyper install hyper-statusline-extended
+: 1594690164:0;cd github/forks/meshery-operator
+: 1594690166:0;ls
+: 1594690270:0;hyper --version
+: 1594690277:0;kyper version
+: 1594690280:0;hyper version
+: 1594690379:0;hyper install hyper-tabs-enhanced
+: 1594690390:0;cd 
+: 1594690402:0;cd github/forks/meshery-operator
+: 1594690404:0;ls
+: 1594690410:0;clear
+: 1594690411:0;ls
+: 1594690417:0;cd cmd/meshsync
+: 1594690418:0;ls
+: 1594690424:0;cd -
+: 1594690426:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1594690578:0;npm install hyper-tray
+: 1594690582:0;cd
+: 1594690589:0;npm install hyper-tray
+: 1594690699:0;hyper install hyper-cat
+: 1594690740:0;clear
+: 1594690748:0;ls
+: 1594690753:0;hello world how are you
+: 1594690765:0;hyper uninstall hyper-cat
+: 1594690804:0;hyper install space-pull
+: 1594690809:0;cd
+: 1594690812:0;cd github/meshery-operator
+: 1594690814:0;git pull
+: 1594690830:0;cd github/meshery-operator
+: 1594690832:0;git pull
+: 1594690917:0;clear
+: 1594690919:0;cd
+: 1594692058:0;hyper install hyper-custom-touchbar
+: 1594692109:0;vim ~/.hyper.js
+: 1594692179:0;cd github/forks/meshery-operator
+: 1594692245:0;vim ~/.hyper.js
+: 1594692357:0;clear
+: 1594692466:0;brew install toshimaru/nyan/nyan
+: 1594692495:0;ls
+: 1594692502:0;nyan cmd/meshsync/main.go
+: 1594692641:0;:x
+: 1594692767:0;vim ~/.zshrc
+: 1594692800:0;source ~/.zshrc
+: 1594692803:0;cat 
+: 1594692807:0;cat cmd/meshsync/main.go
+: 1594692852:0;cat cmd/meshsync/main.go --help
+: 1594692860:0;cat cmd/meshsync/main.go -T
+: 1594692867:0;cat cmd/meshsync/main.go --help
+: 1594692886:0;cat -t solarized-dark cmd/meshsync/main.go
+: 1594692892:0;cat --help
+: 1594692904:0;cat -l
+: 1594692919:0;cat -l go cmd/meshsync/main.go
+: 1594692925:0;cat -l python cmd/meshsync/main.go
+: 1594692927:0;cat -l go cmd/meshsync/main.go
+: 1594692979:0;nvim ~/.hyper.js
+: 1594692993:0;cat ~/.hyper.js
+: 1594693040:0;vim ~/.hyper.js
+: 1594774626:0;cat ~/.hyper.js
+: 1594774700:0;git checkout master
+: 1594774702:0;pwd
+: 1594774707:0;cd ..
+: 1594774711:0;cd meshery-operator
+: 1594774717:0;git checkout master
+: 1594774720:0;git pull
+: 1594780505:0;cd
+: 1594780506:0;ls
+: 1594780514:0;cd github
+: 1594780537:0;git clone https://github.com/istio/istio.git
+: 1594780729:0;cd
+: 1594780730:0;curl -sLf https://spacevim.org/install.sh | bash
+: 1594780876:0;nvim
+: 1594780956:0;vim github/istio
+: 1594781222:0;ls
+: 1594781223:0;cd fonts
+: 1594781223:0;ls
+: 1594781229:0;cd
+: 1594781230:0;ls
+: 1594781339:0;cd fonts/Hack
+: 1594781340:0;ls
+: 1594781343:0;cd ..
+: 1594781403:0;nvim ~/.hyper.js
+: 1594781447:0;ls
+: 1594781452:0;cd
+: 1594781457:0;nvim github/istio
+: 1595080738:0;pwd
+: 1595080742:0;cd github/forks
+: 1595080742:0;ls
+: 1595080744:0;cd meshery-operator
+: 1595080748:0;git pull upstream master
+: 1595080768:0;git add remote upstream https://github.com/layer5io/meshery-operator.git
+: 1595080769:0;git pull upstream master
+: 1595080829:0;git status
+: 1595080832:0;pwd
+: 1595080838:0;git checkout master
+: 1595080841:0;git stash save
+: 1595080925:0;git checkout master
+: 1595080930:0;git pull upstream master
+: 1595080935:0;git config list
+: 1595080940:0;git config --edit
+: 1595080955:0;git remote add upstream https://github.com/layer5io/meshery-operator.git
+: 1595080957:0;git config --edit
+: 1595080983:0;git remote add upstream https://github.com/layer5io/meshery-operator.git
+: 1595080986:0;git pull upstream master
+: 1595080992:0;git status
+: 1595081002:0;rm -rf pkg/meshsync/fingerprint.go
+: 1595081003:0;git status
+: 1595081007:0;git log
+: 1595081015:0;git push
+: 1595081045:0;git status
+: 1595081085:0;git checkout -b nitishm/enhancement/19/istio-synchronizer
+: 1595081110:0;open -a /Applications/Visual\ Studio\ Code.app/ .
+: 1595083483:0;istioctl
+: 1595116313:0;kind
+: 1595116317:0;kg nodes
+: 1595116374:0;kg events
+: 1595116386:0;kg node -o wide
+: 1595116412:0;kind --help
+: 1595116426:0;kind get nodes
+: 1595116508:0;cd
+: 1595116509:0;curl -L https://istio.io/downloadIstio | sh -
+: 1595116522:0;cd istio-1.6.5
+: 1595116531:0;cp bin/istioctl /usr/local/bin
+: 1595116533:0;cd
+: 1595116538:0;istioctl install --set profile=demo
+: 1595116581:0;kg pods
+: 1595116584:0;kg all
+: 1595116588:0;kubectl get-all
+: 1595116594:0;kgns
+: 1595116610:0;kgnowowide
+: 1595116625:0;kg ns
+: 1595116630:0;kubens istio-system
+: 1595116633:0;kg pods
+: 1595116644:0;kgpw
+: 1595116650:0;kgowide
+: 1595116655:0;kgowide pods
+: 1595116681:0;kgpowoyaml
+: 1595116684:0;kg pods
+: 1595116693:0;kgevents
+: 1595116696:0;kg events
+: 1595116704:0;kg pods
+: 1595116711:0;kg svc
+: 1595116717:0;kg pods
+: 1595116761:0;kind get clusters
+: 1595116763:0;kg pods
+: 1595116767:0;kg events
+: 1595116783:0;kg cm
+: 1595116800:0;istioctl version
+: 1595116805:0;istioctl version -
+: 1595116808:0;istioctl version -h
+: 1595116815:0;istioctl version -o
+: 1595116817:0;istioctl version -o yaml
+: 1595116838:0;istioctl version --revision -o yaml
+: 1595116842:0;istioctl version --revision
+: 1595116849:0;istioctl version --revision --help
+: 1595116854:0;istioctl version --revision sdwd
+: 1595116860:0;istioctl version -o yaml
+: 1595116949:0;cd github/istio
+: 1595116949:0;ls
+: 1595116962:0;cat Makefile
+: 1595116971:0;cd istioctl
+: 1595116975:0;ls
+: 1595116977:0;cd cmd
+: 1595116978:0;ls
+: 1595116991:0;cd istioctl
+: 1595116991:0;ls
+: 1595116996:0;go run main.go
+: 1595117040:0;go run main.go -v
+: 1595117062:0;cd ..
+: 1595117070:0;go run cmd/istioctl/main.go
+: 1595117094:0;go get -v ./...
+: 1595117215:0;go run cmd/istioctl/main.go
+: 1595119864:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595119928:0;kubectl version
+: 1595119955:0;go get k8s.io/client-go@v0.18.0
+: 1595119960:0;go get -v -u k8s.io/client-go@v0.18.0
+: 1595119983:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595120080:0;go mod tidy
+: 1595120085:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595120139:0;go get -v ./...
+: 1595120145:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595120637:0;go mod tidy
+: 1595120641:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595120703:0;go get github.com/Azure/go-autorest@latest
+: 1595120710:0;go get github.com/Azure/go-autorest/autorest/adal@latest\
+
+: 1595120715:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595267478:0;git status
+: 1595267481:0;git add -A
+: 1595267518:0;git commit -s -m "Add models and interfaces for meshsync\
+" -m "Created and implemented interfaces and models for meshsync to be used across meshes"
+: 1595267524:0;git log
+: 1595267538:0;git config --global user.name "Nitish Malhotra"
+: 1595267575:0;git config --global user.email nitish.malhotra@gmail.com
+: 1595267606:0;git config --edit
+: 1595267621:0;git config user.name "Nitish Malhotra"
+: 1595267629:0;git config user.email --replace-all "nitish.malhotra@gmail.com"
+: 1595267640:0;git push
+: 1595267713:0;git commit --amend --signoff
+: 1595267724:0;git push --force-with-lease origin nitishm/enhancement/19/istio-synchronizer\
+
+: 1595267741:0;git log 
+: 1595291798:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595292229:0;git status
+: 1595292233:0;git add -A
+: 1595292237:0;git commit -s
+: 1595292299:0;git config user.email "nitish.malhotra@gmail.com"
+: 1595292303:0;git config --edit
+: 1595292313:0;git status
+: 1595292315:0;git push
+: 1595293293:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595293304:0;git status
+: 1595293305:0;git add -A
+: 1595293309:0;git commit -s --amend
+: 1595293322:0;git push -f
+: 1595293432:0;git status
+: 1595293434:0;git add -A
+: 1595293437:0;git commit -s --amend
+: 1595293442:0;git push -f
+: 1595300084:0;git status
+: 1595300090:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595300216:0;git add -A
+: 1595300220:0;git commit -s --amend
+: 1595300225:0;git push -f
+: 1595300275:0;cat go.mod
+: 1595300734:0;git status
+: 1595300735:0;cd
+: 1595300737:0;git status
+: 1595300738:0;ls
+: 1595300744:0;cd do
+: 1595300746:0;cd dotfiles
+: 1595300748:0;ls -lrta
+: 1595300753:0;cd ..
+: 1595300764:0;cp ~/.zshrc dotfiles
+: 1595300773:0;cp ~/.hyper.js dotfiles
+: 1595300790:0;cp -r ~/.oh-my-zsh dotfiles
+: 1595300793:0;ls ~/.
+: 1595300817:0;cp -r /Users/nitish_malhotra/.SpaceVim /Users/nitish_malhotra/.SpaceVim.d dotfiles
+: 1595300821:0;ls dotfiles
+: 1595300824:0;cd dotfiles
+: 1595300826:0;ls -lrta
+: 1595300830:0;cd ..
+: 1595300833:0;ls ~/.
+: 1595300847:0;ls
+: 1595300862:0;cat ~/.gitconfig
+: 1595386484:0;make
+: 1595386537:0;rm -rf go.mod go.sum
+: 1595386539:0;make
+: 1595386544:0;make all
+: 1595386551:0;git checkout -- go.mod
+: 1595386554:0;make
+: 1595386573:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595386611:0;make
+: 1595647201:0;git checkout master
+: 1595647205:0;git stash save
+: 1595647208:0;git checkout master
+: 1595647211:0;git pull upstream master
+: 1595647215:0;pwd
+: 1595647223:0;git status
+: 1595647226:0;rm -rf bin
+: 1595647227:0;ls
+: 1595648462:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595648472:0;ls
+: 1595648477:0;go run cmd/meshsync/main.go
+: 1595648490:0;cat go.mod
+: 1595648504:0;go get -v ./...
+: 1595648520:0;go run cmd/meshsync/main.go
+: 1595648565:0;make run
+: 1595648571:0;go run main.go -v
+: 1595648574:0;go run cmd/meshsync/main.go
+: 1595648676:0;go get github.com/Azure/go-autorest@latest
+: 1595648683:0;go get github.com/Azure/go-autorest/autorest/adal@latest\
+
+: 1595648685:0;go run cmd/meshsync/main.go
+: 1595648787:0;go get -v ./...
+: 1595648795:0;go mod tree
+: 1595648797:0;go mod
+: 1595648801:0;go mod graph
+: 1595648805:0;go mod graph -h
+: 1595648812:0;go help mod graph 
+: 1595648819:0;go run cmd/meshsync/main.go
+: 1595648871:0;go run cmd/meshsync/main.go --kubeconfig ~/.kube/config
+: 1595648885:0;make run
+: 1595649225:0;kg pods
+: 1595649245:0;export KUBECONFIG=~/.kube/config
+: 1595649247:0;make run
+: 1595649353:0;git status
+: 1595649388:0;git checkout -b nitishm/bug/24/go-mod-sirupsen-error
+: 1595649390:0;git status
+: 1595649397:0;vim .gitignore
+: 1595649417:0;git status
+: 1595649426:0;git add go.mod go.sum 
+: 1595649449:0;git commit -s -m "Fix go.mod logrus issue" -m "Fixes #24"
+: 1595649454:0;git status
+: 1595649562:0;git add -A
+: 1595649563:0;git status
+: 1595649615:0;git commit -s -m "Fix import lines to fq path" -m "Fixes #25" -m "Minor cosmetic changes and added /bin to .gitignore"
+: 1595649619:0;git push
+: 1595777080:0;kind get clusters
+: 1595778515:0;vim /tmp/kind.yaml
+: 1595778616:0;kind create cluster --config /tmp/kind.yaml --name kubecon-eu-2020
+: 1595778708:0;kind get clusters
+: 1595778712:0;kind delete cluster --name playground
+: 1595778716:0;kind delete cluster --name kind
+: 1595778727:0;kind get clusters
+: 1595778730:0;kind create cluster --config /tmp/kind.yaml --name kubecon-eu-2020
+: 1595778985:0;kind create cluster --config /tmp/kind.yaml --name kubecon
+: 1595779061:0;kubectl cluster-info --context kind-kubecon
+: 1595779067:0;kgn
+: 1595779070:0;kgno
+: 1595779081:0;istioctl manifest
+: 1595779094:0;istioctl manifest list
+: 1595779099:0;istioctl list
+: 1595779109:0;istioctl profile list
+: 1595779124:0;istioctl profile dump demo
+: 1595779283:0;istioctl install --set profile=demo --set addonComponents.Egress
+: 1595779294:0;istioctl install --set profile=demo --set components.egressGateways=disabled
+: 1595779319:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled
+: 1595779363:0;kg pods
+: 1595779364:0;kg ns
+: 1595779455:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled
+: 1595779481:0;kubectl get --raw /api/v1 | jq '.resources[] | select(.name | index("serviceaccounts/token"))'
+: 1595779486:0;brew install jq
+: 1595779545:0;kubectl get --raw /api/v1 | jq '.resources[] | select(.name | index("serviceaccounts/token"))'
+: 1595779556:0;kubectl get --raw /api/v1
+: 1595779614:0;kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
+: 1595779625:0;kubectl create clusterrolebinding default-admin --clusterrole cluster-admin --serviceaccount=default:default\
+
+: 1595779629:0;token=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kubernetes\.io/service-account\.name']=='default')].data.token}"|base64 --decode)\
+
+: 1595779638:0;kg pods
+: 1595779641:0;kg pods -A
+: 1595779646:0;token=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kubernetes\.io/service-account\.name']=='default')].data.token}"|base64 --decode)\
+
+: 1595779652:0;echo $token
+: 1595779663:0;kubectl proxy\
+
+: 1595779713:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled
+: 1595779878:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled --set values.global.jwtPolicy=first-party-jwt
+: 1595779908:0;kubectl get --raw /api/v1 | jq '.resources[] | select(.name | index("serviceaccounts/token"))'
+: 1595779933:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled --set values.global.jwtPolicy=third-party-jwt
+: 1595780024:0;istioctl install --set profile=deo --set components.egressGateways=disabled --set components.ingressGateways=disabled
+: 1595780030:0;istioctl install --set profile=demo --set components.egressGateways=disabled --set components.ingressGateways=disabled
+: 1595780076:0;istioctl install --set profile=demo 
+: 1595780160:0;kgns
+: 1595780166:0;kubens istio-system
+: 1595780167:0;kg pods
+: 1595780186:0;kubectl get istiooperators.install.istio.io 
+: 1595780196:0;kubectl edit istiooperators.install.istio.io  installed-state
+: 1595780230:0;kg pods
+: 1595780237:0;istioctl --help
+: 1595780255:0;kubectl create ns tenant-1
+: 1595780271:0;kubectl label namespaces Desktop
+: 1595780274:0;kubectl label namespaces 
+: 1595780289:0;kubectl label namespaces "sidecar-injection=enabled"
+: 1595780300:0;kgns --show-labels
+: 1595780315:0;kubectl label namespaces "sidecar-injection="
+: 1595780332:0;kubectl label namespaces tenant-1 "istio-injection=enabled"
+: 1595780389:0;cd
+: 1595780391:0;cd istio-1.6.5
+: 1595780392:0;ls
+: 1595780394:0;cd samples
+: 1595780395:0;ls
+: 1595780397:0;cd bookinfo
+: 1595780397:0;ls
+: 1595780401:0;cat README.md
+: 1595780414:0;cd ../..
+: 1595780426:0;kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595780429:0;kg pods
+: 1595780441:0;kubens tenant-1
+: 1595780443:0;kg pods
+: 1595780447:0;kgpow
+: 1595780505:0;kgev
+: 1595780510:0;kg events
+: 1595780521:0;kgpow
+: 1595780525:0;kg pods
+: 1595780539:0;kg vs
+: 1595780544:0;kg vs -A
+: 1595780587:0;kubectl apply -f samples/sleep/sleep.yaml -n tenant-1\
+
+: 1595780602:0;kubens tenant-1
+: 1595780605:0;kg pods
+: 1595780618:0;kex 
+: 1595780630:0;kex sleep-8f795f47d-p7jh9 -c sleep bash
+: 1595780635:0;kex sleep-8f795f47d-p7jh9 -c sleep /bin/bash
+: 1595780639:0;kex sleep-8f795f47d-p7jh9 -c sleep /bin/sh
+: 1595780741:0;kg gateway
+: 1595780745:0;kg gateway -A
+: 1595780826:0;kubectl delete -f samples/sleep/sleep.yaml -n tenant-1\
+
+: 1595780848:0;kubectl create ns end-user 
+: 1595780866:0;kubectl create ns end-user "istio-injection=enabled"
+: 1595780876:0;kubectl label namespaces end-user "istio-injection=enabled"
+: 1595780885:0;kubectl apply -f samples/sleep/sleep.yaml -n end-user\
+
+: 1595780897:0;kgpon end-user
+: 1595780918:0;kex sleep-8f795f47d-zlvxk -c sleep /bin/sh
+: 1595780929:0;kex -n end-user sleep-8f795f47d-zlvxk -c sleep /bin/sh
+: 1595780993:0;istioctl istioctl verify-install
+: 1595780994:0;istioctl verify-install
+: 1595780998:0;istioctl verify-install | jq
+: 1595781046:0;istioctl verify-install -f /tmp/manifest.yaml
+: 1595781086:0;kubectl get-all
+: 1595781091:0;kubectl get-all -n istio-system
+: 1595781108:0;kubectl get-all -n istio-system | grep -ir gateway
+: 1595781153:0;kubectl get endpointslice.discovery.k8s.io -n istio-system istio-egressgateway-5psv7  -o yaml
+: 1595781164:0;kubectl get endpointslice.discovery.k8s.io -n istio-system istio-egressgateway-5psv7  -o yaml | cat -l yaml
+: 1595781323:0;kubectl get istiooperators.install.istio.io 
+: 1595781328:0;kubectl get istiooperators.install.istio.io -n istio-system
+: 1595781339:0;kubectl get istiooperators.install.istio.io -n istio-system installed-state > /tmp/istiooperator.yaml
+: 1595781343:0;nvim /tmp/istiooperator.yaml
+: 1595781353:0;kubectl get istiooperators.install.istio.io -n istio-system installed-state -o yaml > /tmp/istiooperator.yaml
+: 1595781356:0;nvim /tmp/istiooperator.yaml
+: 1595782330:0;kg pods -n istio-system
+: 1595782342:0;kg pods -n istio-systemkg pods
+: 1595782345:0;kubectl edit istiooperators.install.istio.io  installed-state
+: 1595782356:0;kubectl edit istiooperators.install.istio.io  installed-state -n istio-system
+: 1595782527:0;echo $EDITOR
+: 1595782532:0;echo $KUBE_EDITOR
+: 1595782541:0;export EDITOR=vi
+: 1595782544:0;kubectl edit istiooperators.install.istio.io  installed-state -n istio-system
+: 1595782584:0;kubectl get -n istio-system istiooperators.install.istio.io installed-state -o yaml > /tmp/operator.yaml
+: 1595782589:0;vim /tmp/operator.yaml
+: 1595782596:0;vi /tmp/operator.yaml
+: 1595782643:0;kubectl apply -f /tmp/operator.yaml -n istio-system
+: 1595782649:0;kubectl edit istiooperators.install.istio.io  installed-state -n istio-system
+: 1595782667:0;kg pods
+: 1595782671:0;kg pods -n istio-systemkg pods
+: 1595782674:0;kg pods -n istio-system
+: 1595782686:0;kubectl get-all -n istio-system | grep -ir gateway
+: 1595782710:0;kubectl get-all -n istio-system | grep -ir gateway | grep deployment
+: 1595782722:0;awf
+: 1595782737:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk $1
+: 1595782741:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk $(1)
+: 1595782742:0;awk
+: 1595782893:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $2 }'
+: 1595782896:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $1 }'
+: 1595782904:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $1 }' | sed
+: 1595782936:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m | awk $(1)
+: 1595782939:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $1 }'
+: 1595782943:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $0 }'
+: 1595782946:0;echo (standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $2 }'
+: 1595782953:0;(standard input):deployment.apps/istio-egressgateway                                           istio-system  43m  | awk '{ print $2 }'
+: 1595783045:0;kubectl delete istiooperators.install.istio.io -n installed-state
+: 1595783056:0;kubectl delete istiooperators.install.istio.io -n istio-system installed-state
+: 1595783059:0;kg pods
+: 1595783060:0;kg ns
+: 1595783068:0;kg pods -n istio-system
+: 1595783083:0;istioctl operator remove
+: 1595783089:0;istioctl operator remove -n istio-system
+: 1595783093:0;istioctl operator remove -n istio-system --force
+: 1595783101:0;istioctl operator remove --force
+: 1595783106:0;kg pods -n istio-system
+: 1595783120:0;kg istiooperators.install.istio.io -A
+: 1595783144:0;kubectl delete ns istio-system --grace-period=0 --force\
+\
+
+: 1595783198:0;k get-all | grep -i istio
+: 1595783221:0;cd
+: 1595783223:0;cd -
+: 1595783225:0;istioctl operator init
+: 1595783262:0;cat manifests/charts/istio-operator/values.yaml
+: 1595783272:0;cat manifests/charts/istio-operator/templates/deployment.yaml
+: 1595783282:0;cat manifests/charts/istio-operator/templates/crd-operator.yaml
+: 1595783300:0;cat manifests/charts/istio-operator/templates/KG NS
+: 1595783301:0;KG NS
+: 1595783303:0;kg ns
+: 1595783311:0;kubens istio-iperator
+: 1595783324:0;kubectl create ns istio-system
+: 1595783354:0;vim /tmp/install-istio.yaml
+: 1595783462:0;cat /tmp/install-istio.yaml
+: 1595783470:0;kubectl apply -f /tmp/install-istio.yaml -n istio-system
+: 1595783473:0;kg ns
+: 1595783479:0;kubens istio-system
+: 1595783481:0;kgpo
+: 1595783489:0;k get-all istio-system
+: 1595783493:0;k get-all -n istio-system
+: 1595783506:0;kg pods -n istio-system
+: 1595783558:0;cd ..
+: 1595783560:0;cd -
+: 1595783572:0;kubectl delete -f samples/sleep/sleep.yaml -n tenant-1\
+
+: 1595783584:0;kg ns
+: 1595783590:0;kubens tenant-1
+: 1595783591:0;kg pdos
+: 1595783593:0;kg pods
+: 1595783608:0;kubectl delete -f samples/sleep/sleep.yaml -n end-user\
+
+: 1595783633:0;kubectl delete -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595783644:0;kubectl apply -f samples/sleep/sleep.yaml -n end-user\
+
+: 1595783654:0;kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595783663:0;kex -n end-user sleep-8f795f47d-zlvxk -c sleep /bin/sh
+: 1595783669:0;kgpon end-user
+: 1595783704:0;kex -n end-user sleep-8f795f47d-msw6q -c sleep /bin/sh
+: 1595783854:0;istioctl manifest generate
+: 1595783864:0;istioctl manifest generate --profile=demo
+: 1595783870:0;istioctl manifest generate --help
+: 1595783884:0;istioctl manifest generate --set profile=demo
+: 1595783978:0;istioctl manifest generate --set profile=demo > /tmp/demo.yaml
+: 1595783984:0;vim /tmp/demo.yaml
+: 1595784344:0;mkdir -p ~/kubecon/2020/EU/mesh-in-a-mesh
+: 1595784357:0;cp /tmp/demo.yaml ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595784393:0;open -a /Applications/Visual\ Studio\ Code.app/ ~/kubecon/2020/EU/mesh-in-a-mesh
+: 1595784462:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595784474:0;kubens tenant-1
+: 1595784476:0;kg pods
+: 1595784479:0;kg pods -w
+: 1595784600:0;kg pods
+: 1595784603:0;kg events
+: 1595784620:0;kg pods
+: 1595784631:0;kubectl get events | grep gateway
+: 1595784662:0;kg volume -n istio-system
+: 1595784692:0;kg configmaps -n istio-system
+: 1595784699:0;kg configmaps -n istio-system -A
+: 1595784705:0;kg configmaps -n istio-system -A | grep envoy
+: 1595784763:0;istioctl manifest generate --set profile=demo > /tmp/demo.yaml
+: 1595784771:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/demo.yaml
+: 1595784853:0;kg configmaps
+: 1595784906:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595784909:0;kg pods
+: 1595784914:0;kg events | grep gateway
+: 1595784973:0;kubectl get serviceaccounts
+: 1595784983:0;kubectl get serviceaccounts istio-token -A
+: 1595784989:0;kubectl get serviceaccounts -A 
+: 1595784993:0;kubectl get serviceaccounts -A  | grep istio
+: 1595785003:0;kg events | grep gateway
+: 1595785161:0;kg secrets -A | grep istio
+: 1595785258:0;kg sa
+: 1595785262:0;kg sa istio-egressgateway-service-account
+: 1595785267:0;kg pods
+: 1595785274:0;kg events | grep gateway
+: 1595785365:0;kg sa -A | grep istio
+: 1595785462:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785480:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785483:0;kg pods
+: 1595785485:0;kg events
+: 1595785487:0;kg pods
+: 1595785494:0;kg deployment
+: 1595785500:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785504:0;kg pods
+: 1595785509:0;kg deployment
+: 1595785518:0;kubectl delete deployments.apps istio-ingressgateway
+: 1595785531:0;kubectl delete deployments.apps istio-egressgateway
+: 1595785534:0;kg pods
+: 1595785539:0;kg get-all
+: 1595785547:0;k get-all -n tenant-1
+: 1595785575:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785596:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785598:0;kg pods
+: 1595785601:0;kg deployments.apps
+: 1595785603:0;kg pods
+: 1595785608:0;kubens tenant-1
+: 1595785609:0;kg pods
+: 1595785621:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785700:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785703:0;kg pods
+: 1595785709:0;kg events
+: 1595785788:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785818:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595785835:0;kg pods
+: 1595785837:0;kg events
+: 1595786020:0;kg pods
+: 1595786027:0;kubectl exec -it istio-ingressgateway-7959cf78f8-ws5pw
+: 1595786038:0;kubectl get deployments.apps istio-ingressgateway
+: 1595786043:0;kubectl get deployments.apps istio-ingressgateway -o yaml
+: 1595786100:0;istioctl profile list
+: 1595786114:0;istioctl profile dump default
+: 1595786117:0;istio-ca
+: 1595786128:0;istioctl profile dump default > /tmp/default.yaml
+: 1595786143:0;istioctl profile dump default
+: 1595786156:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/default.yaml
+: 1595786228:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595786234:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595786237:0;kg pods
+: 1595786246:0;k logs -f istio-egressgateway-6c68b4688-j4dfr
+: 1595786313:0;istioctl manifest generate --set values.gateways.istio-ingressgateway.sds.enabled=true > /tmp/sds.yaml
+: 1595786319:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/sds.yaml
+: 1595786368:0;kubectl get deployments.apps -n istio-system istiod
+: 1595786375:0;kubectl get deployments.apps -n istio-system istiod -o yaml | cat -l yamkl
+: 1595786377:0;kubectl get deployments.apps -n istio-system istiod -o yaml | cat -l yaml
+: 1595786419:0;kubectl get deployments.apps -n istio-system istiod -o yaml > /tmp/istiod.yaml
+: 1595786425:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/istiod.yaml
+: 1595786500:0;kubectl -n deployment istiod -n istio-system
+: 1595786507:0;kubectl edit deployment istiod -n istio-system
+: 1595786554:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595786565:0;kg pods
+: 1595786574:0;k logs -f istio-egressgateway-77d9bf56c4-f22sw
+: 1595786577:0;kg pods
+: 1595786584:0;kg events
+: 1595786589:0;kg events | grep token
+: 1595786609:0;kubectl get secrets -A | grep istio
+: 1595786624:0;kubectl edit deployment istiod -n istio-system
+: 1595786660:0;kg pods
+: 1595786664:0;kg events 
+: 1595786668:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595786670:0;kg pods
+: 1595786702:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595786705:0;kg pods
+: 1595786708:0;kg events
+: 1595786736:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595789073:0;istioctl manifest generate --set values.gateways.istio-ingressgateway.sds.enabled=true > /tmp/default.yaml
+: 1595789078:0;nvim /tmp/default.yaml
+: 1595789816:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/demo.yaml
+: 1595790044:0;kubectl delete -f /tmp/demo.yaml
+: 1595790061:0;kubectl delete -f /tmp/demo.yaml -n tenant-1
+: 1595790073:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml
+: 1595790080:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml -n tenant-1
+: 1595790082:0;kg pods
+: 1595790230:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790240:0;kubectl apply -f /tmp/demo.yaml
+: 1595790265:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790276:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml -n tenant-1
+: 1595790297:0;kg pods
+: 1595790305:0;kg deployments
+: 1595790306:0;kg pods
+: 1595790309:0;kg events
+: 1595790322:0;kg pods
+: 1595790326:0;kg deployments.apps
+: 1595790328:0;kg pods
+: 1595790340:0;kg deployments.apps
+: 1595790348:0;kg deployments istio-ingressgateway -o yaml
+: 1595790357:0;kg sa
+: 1595790367:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790393:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml -n tenant-1
+: 1595790401:0;kg pods
+: 1595790404:0;kg deployments.apps
+: 1595790406:0;kg pods
+: 1595790408:0;kg events
+: 1595790424:0;kg pods
+: 1595790666:0;kg deployments.apps
+: 1595790673:0;kg deployments.apps istio-ingressgateway -o yaml
+: 1595790686:0;kg sa
+: 1595790693:0;kg deployments.apps
+: 1595790719:0;kg deployments.apps istio-ingressgateway -o yaml
+: 1595790734:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790738:0;kg sa
+: 1595790744:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790747:0;kg sa
+: 1595790749:0;kg deployments.apps
+: 1595790751:0;kg pods
+: 1595790756:0;kg deployments.apps istio-ingressgateway -o yaml
+: 1595790763:0;kg sa istio-ingressgateway-service-account
+: 1595790772:0;istio-ingressgateway-service-account
+: 1595790804:0;kg deployments.apps istio-ingressgateway -o yaml > /tmp/temp.yaml
+: 1595790807:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/temp.yaml
+: 1595790829:0;kg sa
+: 1595790843:0;kubectl scale deployment --replicas 0 
+: 1595790853:0;kubectl scale deployment --replicas 0 istio-ingressgatewa
+: 1595790855:0;kubectl scale deployment --replicas 0 istio-ingressgateway
+: 1595790860:0;kubectl scale deployment --replicas 1 istio-ingressgateway
+: 1595790862:0;kg pods
+: 1595790864:0;kg deployments.apps
+: 1595790866:0;kg sa
+: 1595790874:0;kg sa istio-ingressgateway-service-account -o yaml
+: 1595790880:0;kg sa istio-ingressgateway-service-account -o yaml | cat -l yaml
+: 1595790918:0;kubectl delete -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595790930:0;kubectl get-all 0n tenant-1 | grep istio
+: 1595790936:0;kubectl get-all -n tenant-1 | grep istio
+: 1595790966:0;kubectl delete configmaps istio-ca-root-cert
+: 1595790970:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595791002:0;kg pods
+: 1595791004:0;kg deployments.apps
+: 1595791091:0;kubectl get sa -A | grep istio
+: 1595791107:0;kubectl get sa istio-ingressgateway-service-account -o yaml
+: 1595791119:0;kubectl get secrets
+: 1595791131:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/temp.yaml
+: 1595791857:0;istioctl manifest generate --set profile=demo > /tmp/demo.yaml
+: 1595791865:0;kubectl delete -f /tmp/demo.yaml
+: 1595791878:0;kg pods
+: 1595791880:0;kg deployments.apps
+: 1595791893:0;cd istio-1.6.5
+: 1595791901:0;kubectl delete -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595791907:0;k get-all -n tenant-1
+: 1595791913:0;\kg pods
+: 1595791914:0;kg pods
+: 1595791918:0;k get-all -n tenant-1
+: 1595791923:0;kubectl delete -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595791934:0;kubectl delete ns tenant-1
+: 1595792269:0;kg ns
+: 1595792283:0;kubectl get-all -n istio-system
+: 1595793322:0;kubectl delete ns istio-system --grace-period=0 --force\
+\
+
+: 1595793344:0;istioctl manifest generate > /tmp/manifest.yaml
+: 1595793362:0;kubectl delete -f /tmp/manifest.yaml
+: 1595793366:0;kg pods
+: 1595793483:0;kg ns
+: 1595793487:0;kubectl delete istiooperators.install.istio.io -n istio-system installed-state
+: 1595793500:0;kubectl get istiooperators.install.istio.io -A
+: 1595793505:0;kg ns
+: 1595793516:0;kubectl get pods -n istio-operator
+: 1595793559:0;open -a /tmp/manifest.yaml
+: 1595793567:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/manifest.yaml
+: 1595793609:0;kubectl apply -f /tmp/manifest.yaml
+: 1595793622:0;kubectl pods
+: 1595793625:0;kg pods
+: 1595793631:0;kubens
+: 1595793641:0;kubectl create ns istio-system
+: 1595793643:0;kubectl apply -f /tmp/manifest.yaml
+: 1595793684:0;kubens istio-system
+: 1595793685:0;kg pods
+: 1595793689:0;kg deployments.apps
+: 1595793696:0;kg pods
+: 1595793803:0;kubectl create ns tenant-1
+: 1595793830:0;kubectl apply -f ~/kubecon/2020/EU/mesh-in-a-mesh/gateways.yaml 
+: 1595793834:0;kg pods -n tenant-1
+: 1595793842:0;kg pods
+: 1595793846:0;kg events
+: 1595793860:0;kind delete cluster
+: 1595793869:0;kind get clusters
+: 1595793877:0;kind delete cluster kubecon
+: 1595793880:0;kg pods
+: 1595793888:0;kind get clusters
+: 1595793893:0;kind delete cluster --name kubecon
+: 1595793962:0;kind create cluster --config /tmp/kind.yaml --name kubecon
+: 1595794030:0;kg pods
+: 1595794045:0;kubectl create ns istio-system
+: 1595794057:0;kubectl apply -f /tmp/manifest.yaml
+: 1595794072:0;kg pods
+: 1595794076:0;kubens istio-system
+: 1595794077:0;kg pods
+: 1595794082:0;kg events
+: 1595794093:0;kubectl delete -f /tmp/manifest.yaml
+: 1595794101:0;ls
+: 1595794106:0;vim /tmp/operator.yaml
+: 1595794131:0;kubectl create -f /tmp/operator.yaml
+: 1595794154:0;istioctl operator init
+: 1595794262:0;kubectl create -f /tmp/operator.yaml
+: 1595794272:0;open -a /Applications/Visual\ Studio\ Code.app/ /tmp/operator.yaml
+: 1595794305:0;kg pods
+: 1595794308:0;kg pod
+: 1595794311:0;kg deployments.apps
+: 1595794314:0;kg pods
+: 1595794342:0;kubectl get-all -n istio-system 
+: 1595794381:0;kubectl get-all -n istio-system | grep -ir gateway 
+: 1595794421:0;kubectl get-all -n istio-system | grep -ir ingressgateway 
+: 1595794433:0;cd ..
+: 1595794437:0;cd kubecon/2020/EU/mesh-in-a-mesh
+: 1595794438:0;ls
+: 1595794458:0;kubectl get sa istio-ingressgateway-service-account -o yaml
+: 1595794474:0;kubectl get sa istio-ingressgateway-service-account -o yaml >> ingress.yaml
+: 1595794480:0;kubectl get-all -n istio-system | grep -ir ingressgateway 
+: 1595794497:0;kubectl get deployment istio-ingressgateway -o yaml >> ingress.yaml
+: 1595794516:0;kubectl get service istio-ingressgateway -o yaml >> ingress.yaml
+: 1595794532:0;kubectl get poddisruptionbudget istio-ingressgateway -o yaml >> ingress.yaml
+: 1595794535:0;cat ingress.yaml
+: 1595794554:0;kubectl get poddisruptionbudget istio-ingressgateway -o yaml >> ingress.yaml
+: 1595794576:0;kubectl get-all -n istio-system --show-labels
+: 1595794582:0;rm -rf ingress.yaml
+: 1595794598:0;kubectl get sa istio-ingressgateway-service-account -o yaml >> sa.yaml
+: 1595794607:0;kubectl get deployment istio-ingressgateway -o yaml >> deployment.yaml
+: 1595794615:0;kubectl get service istio-ingressgateway -o yaml >> service.yaml
+: 1595794623:0;kubectl get poddisruptionbudget istio-ingressgateway -o yaml >> pdb.yaml
+: 1595794626:0;kubectl get poddisruptionbudget istio-ingressgateway -o yaml >> ingress.yaml
+: 1595794632:0;kubectl get-all -n istio-system | grep -ir ingressgateway 
+: 1595794637:0;rm -rf ingress.yaml
+: 1595794663:0;kubectl get rolebindings.rbac.authorization.k8s.io istio-ingressateway-sds > rolebinding.yaml
+: 1595794672:0;kubectl get role.rbac.authorization.k8s.io istio-ingressateway-sds > role.yaml
+: 1595794857:0;kubectl get rolebindings.rbac.authorization.k8s.io istio-ingressateway-sds
+: 1595794871:0;kubectl get rolebindings.rbac.authorization.k8s.io istio-ingressgateway-sds 
+: 1595794880:0;kubectl get rolebindings.rbac.authorization.k8s.io istio-ingressgateway-sds -o yaml > rolebinding.yaml
+: 1595794890:0;kubectl get role.rbac.authorization.k8s.io istio-ingressgateway-sds -o yaml > role.yaml
+: 1595795035:0;rm -rf gateways.yaml
+: 1595795039:0;kubectl create -f .
+: 1595795110:0;kubectl create ns tenant-1
+: 1595795113:0;kubectl create -f .
+: 1595795119:0;kubens tenant-1
+: 1595795122:0;kg pods
+: 1595795125:0;kg ns
+: 1595795127:0;kg pods
+: 1595795129:0;kg deployments.apps
+: 1595795134:0;k get-all -n tenant-1
+: 1595795159:0;kubectl apply -f .
+: 1595795162:0;kg pods
+: 1595795176:0;kubectl apply -f .
+: 1595795178:0;kg pods
+: 1595795187:0;kg deployments.apps
+: 1595795204:0;kubectl delete -f .
+: 1595795222:0;kubectl apply -f .
+: 1595795224:0;kg pods
+: 1595795227:0;kg deployments.apps
+: 1595795228:0;kg pods
+: 1595795252:0;kubectl create ns end-user
+: 1595795256:0;kubectl label namespaces end-user "istio-injection=enabled"
+: 1595795264:0;kubectl label namespaces tenant-1 "istio-injection=enabled"
+: 1595795270:0;cd istio-1.6.5
+: 1595795272:0;cd
+: 1595795273:0;cd istio-1.6.5
+: 1595795283:0;kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-1\
+
+: 1595795298:0;kubectl apply -f samples/sleep/sleep.yaml -n end-user\
+
+: 1595795304:0;kg pods
+: 1595795313:0;kubens end-user
+: 1595795314:0;kg pods
+: 1595795346:0;kubens tenant-1
+: 1595795347:0;kg pods
+: 1595795351:0;kg pods -w
+: 1595795404:0;kubens end-user
+: 1595795405:0;kg pods
+: 1595795418:0;kubectl exec -it sleep-8f795f47d-4phzv -c sleep /bin/sh
+: 1595795439:0;curl
+: 1595795503:0;kubens tenant-1
+: 1595795504:0;kg svc
+: 1595795508:0;kg pods
+: 1595795514:0;cd -
+: 1595795520:0;cd
+: 1595795523:0;cd kubecon/2020/EU/mesh-in-a-mesh
+: 1595795523:0;ls
+: 1595795525:0;cat service.yaml
+: 1595795536:0;kubectl apply -f service.yaml
+: 1595795574:0;kg svc
+: 1595795598:0;kubectl get node -o wide
+: 1595795617:0;curl 172.18.0.3:31001/
+: 1595795625:0;curl http://172.18.0.3:31001/ -v
+: 1595795638:0;curl http://172.18.0.3:30788/ -v
+: 1595795649:0;kind --help
+: 1595795655:0;kind get nodes
+: 1595795665:0;kind get nodes -n kubecon
+: 1595795669:0;kind get nodes --name kubecon
+: 1595795674:0;kind get nodes --name kubecon -v
+: 1595795680:0;kind get nodes -v --name kubecon
+: 1595795738:0;kubectl cluster-info --context kind-kubecon
+: 1595795765:0;curl -v http://127.0.0.1:30788
+: 1595795768:0;curl -v http://127.0.0.1:30788/
+: 1595795778:0;kg svc
+: 1595795787:0;curl -v http://127.0.0.1:31051/
+: 1595795794:0;kpoof
+: 1595795807:0;kubectl krew install kpoof
+: 1595795858:0;kubectl port-forward istio-ingressgateway
+: 1595795871:0;kubectl port-forward istio-ingressgateway 80:8080
+: 1595795878:0;kubectl port-forward istio-ckg podsingressgateway 80:8080
+: 1595795880:0;kg pods
+: 1595795890:0;kubectl port-forward istio-ingressgateway-79fc65fffc-fwz89 80:8080
+: 1595795898:0;kubectl port-forward istio-ingressgateway-79fc65fffc-fwz89 8080:80
+: 1595795921:0;kg svc
+: 1595795935:0;kubectl port-forward istio-ingressgateway-79fc65fffc-fwz89 15020
+: 1595795944:0;kubectl port-forward istio-ingressgateway-79fc65fffc-fwz89 15021
+: 1595795983:0;kubectl exec -it istio-ingressgateway-79fc65fffc-fwz89 bash
+: 1595796029:0;kubectl exec -it -n end-user sleep-8f795f47d-4phzv -c sleep /bin/sh
+: 1595796045:0;kg svc
+: 1595796062:0;kubectl get endpoints
+: 1595796073:0;kubectl get endpoints istio-ingressgateway
+: 1595796077:0;kubectl get endpoints istio-ingressgateway -o wide
+: 1595796128:0;kubens tenant-1
+: 1595796130:0;ls
+: 1595796136:0;kubectl apply -f gateway.yaml
+: 1595796388:0;kg gw
+: 1595796392:0;kg gw -o wide
+: 1595796418:0;kubens tenant-1
+: 1595796420:0;kg gw -o wide
+: 1595796426:0;kg gw -o yaml
+: 1595796532:0;kg pods
+: 1595796623:0;kubectl create ns tenant-2
+: 1595796630:0;kubectl label namespaces tenant-2 "istio-injection=enabled"
+: 1595796638:0;cd ~/istio-1.6.5
+: 1595796644:0;kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -n tenant-2\
+
+: 1595796654:0;kubens tenant-2
+: 1595796655:0;kg pods
+: 1595796671:0;cd -
+: 1595796680:0;kubectl apply -f . -n tenant-2
+: 1595796777:0;kubectl delete -f . -n tenant-2
+: 1595796796:0;kubectl apply -f deployment.yaml
+: 1595796798:0;kg pods
+: 1595796807:0;kg deployments.apps
+: 1595796810:0;kg pods
+: 1595796813:0;kg deployments.apps
+: 1595796823:0;kg deployments.apps istio-ingressgateway -o yaml
+: 1595796838:0;kubectl apply -f . -n tenant-2
+: 1595796840:0;kg pods
+: 1595796843:0;kg deployments.apps
+: 1595796846:0;kg pods
+: 1595796851:0;kubectl delete -f . -n tenant-2
+: 1595796855:0;kubectl create -f .
+: 1595796857:0;kg pods
+: 1595796858:0;kg deployments.apps
+: 1595796861:0;kg pods
+: 1595796890:0;cd
+: 1595796891:0;cd github
+: 1595796892:0;ls
+: 1595797063:0;kubectl port-forward istio-ingressgateway-79fc65fffc-f98xz 80:80
+: 1595797068:0;kubectl port-forward istio-ingressgateway-79fc65fffc-f98xz 80:8080
+: 1595797073:0;kubectl port-forward istio-ingressgateway-79fc65fffc-f98xz 9080:80
+: 1595797106:0;kubectl proxy
+: 1595812099:0;kg svc
+: 1595812113:0;kubectl get gateway 
+: 1595812127:0;kubectl get gateway bookinfo -o yaml | cat -l yaml
+: 1595812135:0;kubectl get gateway bookinfo-gaetway -o yaml | cat -l yaml
+: 1595812139:0;kubectl get gateway bookinfo-gateway -o yaml | cat -l yaml
+: 1595812160:0;kubectl edit gateway bookinfo-gateway
+: 1595813029:0;vim /var/folders/s5/6h36qgr90vv48qhz_yyp942h0000gn/T/kubectl-edit-mjivt.yaml`
+: 1595813031:0;vim /var/folders/s5/6h36qgr90vv48qhz_yyp942h0000gn/T/kubectl-edit-mjivt.yaml
+: 1595813081:0;kubectl replace -f /var/folders/s5/6h36qgr90vv48qhz_yyp942h0000gn/T/kubectl-edit-mjivt.yaml
+: 1595813085:0;kg gateway
+: 1595813088:0;kg gateway -o yaml
+: 1595813164:0;ls
+: 1595813168:0;git status
+: 1595813172:0;cd ..
+: 1595813202:0;git clone https://github.com/affirmednetworks/kubecon-eu-2020.git
+: 1595813206:0;ls
+: 1595813209:0;pwd
+: 1595813213:0;ls
+: 1595813216:0;cd kubecon-eu-2020
+: 1595813216:0;ls
+: 1595813230:0;mkdir manifests
+: 1595813241:0;cp -r ../mesh-in-a-mesh/deployment.yaml ../mesh-in-a-mesh/gateway.yaml ../mesh-in-a-mesh/pdb.yaml ../mesh-in-a-mesh/role.yaml ../mesh-in-a-mesh/rolebinding.yaml ../mesh-in-a-mesh/sa.yaml ../mesh-in-a-mesh/service.yaml manifests
+: 1595813244:0;ls manifest
+: 1595813246:0;ls
+: 1595813250:0;ls manifests
+: 1595813329:0;open -a /Applications/Visual\ Studio\ Code.app/ .
+: 1595814274:0;cd manifests
+: 1595814309:0;kubectl apply -k tenant-one --dry-run -o yaml
+: 1595814319:0;kubectl apply -k tenant-one --dry-run=client -o yaml
+: 1595814328:0;kubectl apply -k ./tenant-one --dry-run=client -o yaml
+: 1595814444:0;kubectl apply -k ./tenant-two --dry-run=client -o yaml
+: 1595814495:0;kubectl apply -k ./tenant-one --dry-run=client -o yaml
+: 1595814507:0;kubectl apply -k ./tenant-two --dry-run=client -o yaml
+: 1595814579:0;kubectl apply -k ./tenant-one --dry-run=client -o yaml
+: 1595814764:0;pwd
+: 1595814803:0;kustomize
+: 1595814819:0;kubectl create -k ./tenant-two --dry-run=client -o yaml
+: 1595814833:0;kubectl create -k . --dry-run=client -o yaml
+: 1595814840:0;kubectl apply -k . --dry-run=client -o yaml
+: 1595814853:0;kubectl create -k ./tenant-two --dry-run=client -o yaml
+: 1595814944:0;kubectl create -k ./tenant-two
+: 1595815028:0;kubectl create -k ./base
+: 1595815039:0;kubectl create -k ./base --dry-run=client -o yaml
+: 1595815049:0;kubectl create -k ./tenant-one --dry-run=client -o yaml
+: 1595815070:0;kubectl create -k ./tenant-two --dry-run=client -o yaml
+: 1595815250:0;mkdir overlays
+: 1595815254:0;mv tenant-one overlays
+: 1595815257:0;mv tenant-two overlays
+: 1595815307:0;brew install kustomize
+: 1595815319:0;kubectl create -k ./tenant-two --dry-run=client -o yaml
+: 1595815325:0;kubectl create -k ./overlays/tenant-two --dry-run=client -o yaml
+: 1595815358:0;kustomize build
+: 1595815365:0;kustomize build overlays/tenant-one
+: 1595815461:0;kustomize build overlays/tenant-two
+: 1595815745:0;git status
+: 1595815749:0;kustomize build overlays/
+: 1595815753:0;kustomize build base
+: 1595815776:0;kubectl get gateway bookinfo-gateway -o yaml | cat -l yaml
+: 1595815805:0;kubectl get gateway
+: 1595815812:0;kubectl edit gateway bookinfo-gateway
+: 1595816002:0;kustomize build base
+: 1595816009:0;kustomize build base/gateway.yaml
+: 1595816022:0;kubectl replace -f base/gateway.yaml -n tenant-1
+: 1595816027:0;kg gateway -o yaml
+: 1595816040:0;kubectl replace -f base/gateway.yaml -n tenant-1
+: 1595816042:0;kg gateway -o yaml
+: 1595816056:0;kubectl replace -f base/gateway.yaml -n tenant-2
+: 1595816057:0;kg gw
+: 1595816060:0;kg gw -o yaml
+: 1595816154:0;kubectl replace -f base/gateway.yaml -n tenant-2
+: 1595816156:0;kg gw -o yaml
+: 1595816177:0;git status
+: 1595816186:0;git add -A
+: 1595816199:0;git commit -s -m "Base and overlay kustomize manifest"
+: 1595816201:0;git push
+: 1595816208:0;git pull
+: 1595816215:0;git push
+: 1595905251:0;git status
+: 1595905253:0;git diff
+: 1595905341:0;kubectl apply -k . --dry-run=client -o yaml
+: 1595905496:0;kubectl apply -k tenant-one --dry-run=client -o yaml
+: 1595905587:0;brew install mkcert
+: 1595905722:0;mkcert --help
+: 1595905740:0;mkcert -CAROOT
+: 1595905743:0;ls
+: 1595905755:0;ls /Users/nitish_malhotra/Library/ApplicationSupport/mk
+: 1595905764:0;ls /Users/nitish_malhotra/Library/Application\ Support/mkcert
+: 1595905784:0;ls ~/Library/Application\ Support
+: 1595905788:0;ls ~/Library/Application\ Support/mkcert
+: 1595905789:0;ls ~/Library/Application\ Support/mkcerts
+: 1595905795:0;mkcert --help
+: 1595905833:0;ls
+: 1595905940:0;cd tenant-two/secrets
+: 1595905941:0;ls
+: 1595905946:0;mkcert --help
+: 1595905999:0;mkcert -cert-file tls.crt -key-file tls.key tenant-two.example.com
+: 1595906140:0;ls /Users/nitish_malhotra/Library/Application\ Support/mkcert
+: 1595906177:0;cp /Users/nitish_malhotra/Library/Application\ Support/mkcert/rootCA.pem cacert
+: 1595906178:0;ls
+: 1595906186:0;mv tls.crt cert
+: 1595906189:0;mv tls.key key
+: 1595906190:0;ls
+: 1595906263:0;cd ..
+: 1595906272:0;cd tenant-one
+: 1595906274:0;mkdir secrets
+: 1595906276:0;cd secrets
+: 1595906276:0;ls
+: 1595906293:0;mkcert -cert-file cert -key-file key tenant-one.example.com
+: 1595906297:0;cp /Users/nitish_malhotra/Library/Application\ Support/mkcert/rootCA.pem cacert
+: 1595906298:0;ls
+: 1595906342:0;kubectl apply -k tenant-one --dry-run=client -o yaml
+: 1595906403:0;cd ..
+: 1595906406:0;kubectl apply -k tenant-one --dry-run=client -o yaml
+: 1595906755:0;f
+: 1595906757:0;kubectl apply -k tenant-one --dry-run=client -o yaml
+: 1595906766:0;cd ..
+: 1595906770:0;git diff
+: 1595906903:0;kg ns
+: 1595906909:0;kubens tenant-1
+: 1595906911:0;kg pods
+: 1595906918:0;git status
+: 1595906922:0;git add -A
+: 1595906942:0;git commit -s -m "Added secret generated and adapted to kubectl kustomize"
+: 1595906943:0;git push
+: 1595906968:0;mkcert -cert-file cert -key-file key tenant-one.example.com --client
+: 1595906990:0;mkcert --help
+: 1595907006:0;cd manifests/tenant-one
+: 1595907007:0;ls
+: 1595907009:0;cd secrets
+: 1595907024:0;mkcert --client tenant-one.example.com
+: 1595907027:0;lg
+: 1595907028:0;ls
+: 1595907048:0;mv tenant-one.example.com-client-key.pem client-key.pem
+: 1595907057:0;mv tenant-one.example.com-client.pem client-cert.pem
+: 1595907057:0;ls
+: 1595950583:0;cd
+: 1595950584:0;ls
+: 1595950588:0;cd /tmp
+: 1595950588:0;ls
+: 1595950596:0;cat operator.yaml
+: 1595950602:0;ls
+: 1595950609:0;cat manifest.yaml
+: 1595950627:0;kg pods
+: 1595950632:0;kubectl get-all
+: 1595950666:0;kubectl get deployment.apps istio-ingressgateway
+: 1595950669:0;kubectl get deployment.apps istio-ingressgateway -o yaml
+: 1595950700:0;cd
+: 1595950701:0;cd kubecon
+: 1595950702:0;ls
+: 1595950703:0;cd 2020
+: 1595950704:0;ls
+: 1595950705:0;cd EU
+: 1595950706:0;ls
+: 1595950708:0;cd mesh-in-a-mesh
+: 1595950709:0;ls
+: 1595950712:0;cat deployment.yaml
+: 1595950719:0;open -a /Applications/Visual\ Studio\ Code.app/ deployment.yaml
+: 1595950737:0;ls
+: 1595950855:0;git status
+: 1595950858:0;cd ..
+: 1595950861:0;cd kubecon-eu-2020
+: 1595950864:0;git pull
+: 1595950886:0;cd manifests/tenant-two
+: 1595950892:0;mkcert --client tenant-two.example.com
+: 1595950895:0;ls
+: 1595950904:0;mv tenant-two.example.com-client-key.pem client-key.pem
+: 1595950918:0;mv tenant-two.example.com-client.pem client-cert.pem
+: 1595950919:0;ls
+: 1595950935:0;git status
+: 1595950990:0;git commit -s -a -m "Add deployment.yaml and client certs"
+: 1595950997:0;git add -A
+: 1595951003:0;git commit -s -m "Add deployment.yaml and client certs"
+: 1595951006:0;git push
+: 1595956856:0;kubectl get pods
+: 1595956862:0;kg secrets
+: 1595970053:0;kg pods
+: 1595970078:0;kubectl exec -it ratings-v1-65cff55fb8-82rb7 bash
+: 1595970112:0;kg svc
+: 1595970119:0;kubectl exec -it ratings-v1-65cff55fb8-82rb7 bash
+: 1596138613:0;git pull
+: 1596138644:0;minikube
+: 1596138650:0;brew install minikube
+: 1596138688:0;minikube
+: 1596138722:0;sysctl -a | grep -E --color 'machdep.cpu.features|VMX'
+: 1596138781:0;minikube start
+: 1596143231:0;kg nodes
+: 1596143286:0;istioctl
+: 1596143295:0;istioctl manifest apply --set profile=demo --set values.gateways.istio-ingressgateway.enabled=false --set values.gateways.istio-egressgateway.enabled=false --set values.global.jwtPolicy=first-party-jwt
+: 1596150735:0;git status
+: 1596150738:0;git add -A
+: 1596150750:0;git commit -s -m "Fix KinD instructions in README.md"
+: 1596150752:0;git push
+: 1596653133:0;cd continuous_delivery/releaser/konductor
+: 1596653134:0;git pull
+: 1596653139:0;git status
+: 1596655235:0;bvm
+: 1596655246:0;ssh nitish_malhotra@10.15.15.122
+: 1596660937:0;cd continuous_delivery/releaser/konductor
+: 1596660955:0;vim examples/deploy/helmreleasegroup/render.yaml
+: 1596661152:0;vim examples/deploy/helmreleasegroup/charts/fed-group-member-fed_example/values.yaml
+: 1596661229:0;cd
+: 1596661231:0;cd istio-1.6.5
+: 1596661232:0;ls
+: 1596661233:0;cd sm
+: 1596661235:0;cd manifests
+: 1596661236:0;ls
+: 1596661238:0;cd profiles
+: 1596661239:0;ls
+: 1596719403:0;ssh kuberadmin@10.163.64.241
+: 1596725582:0;ssh kuberadmin@10.163.64.101
+: 1596821382:0;cd Parallels
+: 1596821383:0;ls
+: 1596821384:0;curl -L https://github.com/Parallels/docker-machine/releases/download/parallels%2F0.4.0-1/docker-machine_darwin-amd64 > /usr/local/bin/docker-machine
+: 1596821390:0;docker-machine create --driver=parallels prl-dev
+: 1596821412:0;chmod -x /usr/local/bin/docker-machine
+: 1596821415:0;docker-machine create --driver=parallels prl-dev
+: 1596821418:0;sudo docker-machine create --driver=parallels prl-dev
+: 1596821433:0;sudo /usr/local/bin/docker-machine create --driver=parallels prl-dev
+: 1596821440:0;su
+: 1597192334:0;cd Octo/continuous_delivery/releaser/konductor
+: 1597192335:0;gh pr checkout 46
+: 1597192340:0;git status
+: 1597192404:0;vim degit status
+: 1597192408:0;git status
+: 1597192415:0;git reset --hard HEAD
+: 1597192417:0;git status
+: 1597192428:0;cd ..
+: 1597192433:0;rm -rf konductor
+: 1597192458:0;git clone https://github.com/affirmed-octo/konductor
+: 1597192462:0;cd konductor
+: 1597192463:0;gh pr checkout 46
+: 1597192467:0;git status
+: 1597192487:0;open -a /Applications/Visual\ Studio\ Code.app/.
+: 1597192756:0;bvm
+: 1597192760:0;ssh nitish_malhotra@10.15.15.122
+: 1597192784:0;scp kuberadmin@10.15.12.31:/home/kuberadmin/admin.conf ~/.kube/config
+: 1597192794:0;kubectl get ns
+: 1597192800:0;kubens default
+: 1597192812:0;kubectl delete -f examples/sample-charts/complex/render.yaml
+: 1597192823:0;kpoof
+: 1597192830:0;kubectl krew install kpoof
+: 1597192837:0;kubectl krew list
+: 1597192841:0;kubectl krew search
+: 1597192890:0;brew tap farmotive/k8s\
+brew install kpoof
+: 1597192934:0;kpoof
+: 1597192958:0;kubectl apply -f examples/sample-charts/complex/render.yaml
+: 1597192973:0;go run main.go
+: 1597193098:0;kubectl  get workflow
+: 1597193102:0;kubectl  get workflow -o yaml
+: 1597193264:0;kubectl get pods -n fed-example
+: 1597193272:0;kubectl get helmrelease
+: 1597193275:0;kubectl get helmrelease -n default
+: 1597193296:0;kubectl get deployments.apps -n fed-example
+: 1597193310:0;kg deployments.apps -n default
+: 1597193423:0;kg pods
+: 1597193433:0;kg deployments.apps
+: 1597193492:0;kubectl get-all
+: 1597193497:0;kubectl get-all -n default
+: 1597193518:0;kubectl get helmrelease -A
+: 1597193523:0;kubectl get helmrelease 
+: 1597193533:0;kubectl delete -f examples/sample-charts/complex/render.yaml
+: 1597193537:0;kubectl get helmrelease 
+: 1597193623:0;kubectl krew search
+: 1597193712:0;kubectl krew install view-secret
+: 1597193723:0;kubectl krew install status
+: 1597193729:0;kubectl status 
+: 1597193747:0;kubectl status  -f examples/sample-charts/complex/render.yaml
+: 1597193831:0;kubectl get helmrelease --no-headers=true | awk '{print $1}' | xargs  kubectl delete -n mynamespace helmrelease
+: 1597193838:0;kubectl get helmrelease --no-headers=true | awk '{print $1}' | xargs  kubectl delete -n mynamespace helmrelease -n default
+: 1597193844:0;kubectl get helmrelease
+: 1597193861:0;kubectl apply -f examples/sample-charts/complex/render.yaml
+: 1597193891:0;kubectl get pods
+: 1597193903:0;kubectl get helmrelease
+: 1597193923:0;kubectl describe helmrelease pod-istio-cfg-agent
+: 1597194035:0;kubectl get helmrelease
+: 1597194047:0;kubectl get helmrelease pod-he
+: 1597194050:0;kubectl get helmrelease pod-hello
+: 1597194058:0;kubectl get helmrelease pod-hello -o yaml | cat -l yaml
+: 1597194117:0;kubectl get helmrelease pod-hello
+: 1597194121:0;kubectl get helmrelease 
+: 1597194201:0;kubectl get helmrelease pod-istio_gw
+: 1597194211:0;kubectl get helmrelease
+: 1597194219:0;kubectl get helmrelease pod-istio-w
+: 1597194222:0;kubectl get helmrelease pod-istio-gw
+: 1597194229:0;kubectl get helmrelease pod-istio-gw -o yaml | cat -l yaml
+: 1597194287:0;kubectl describe helmrelease pod-istio_gw
+: 1597194291:0;kubectl describe helmrelease pod-istio-gw
+: 1597194313:0;kubectl get secrets
+: 1597194412:0;kubectl get helmrelease
+: 1597194418:0;kubectl get helmrelease pod-istio-gw
+: 1597194425:0;kubectl get helmrelease pod-istio-gw -o yaml > foo.yaml
+: 1597194477:0;kubectl get helmrelease pod-hello -o yaml > foo.yaml
+: 1597194614:0;kubectl get workflow -o yaml > foo.yaml
+: 1599520295:0;ls
+: 1599520296:0;clear
+: 1599520296:0;ls
+: 1599520308:0;cd kubecon
+: 1599520309:0;ls
+: 1599520310:0;cd 2020
+: 1599520311:0;ls
+: 1599520312:0;cd EU
+: 1599520312:0;ls
+: 1599520315:0;cd mesh-in-a-mesh
+: 1599520316:0;ls
+: 1599520318:0;cd ..
+: 1599520318:0;ls
+: 1599520320:0;cd kubecon-eu-2020
+: 1599520320:0;ls
+: 1599520326:0;cd ..
+: 1599520327:0;ls
+: 1599520328:0;c d.
+: 1599520329:0;cd ..
+: 1599520329:0;ls
+: 1599520330:0;c d..
+: 1599520332:0;..
+: 1599520335:0;/
+: 1599520336:0;.
+: 1599520337:0;..
+: 1599520338:0;../
+: 1599520341:0;..
+: 1599520342:0;cd
+: 1599520343:0;../
+: 1599520346:0;cd
+: 1599520349:0;../
+: 1599520352:0;clear
+: 1599520354:0;ls
+: 1599520356:0;ni
+: 1599520358:0;nitish_malhotra
+: 1599520359:0;ls
+: 1601241703:0;cd github/forks
+: 1601241707:0;rm -rf osm
+: 1601241730:0;git clone https://github.com/nitishm/osm.git
+: 1601241773:0;cd github/forks
+: 1601241776:0;git clone https://github.com/nitishm/osm.git
+: 1601241786:0;brew install xcode
+: 1626572538:0;vlrts
+: 1626572545:0;clear
+: 1626572562:0;sh -c "$(curl -fsSL https://starship.rs/install.sh)"\
+
+: 1626572580:0;vim ~/.zshrc
+: 1626572591:0;source ~/.zshrc
+: 1626572600:0;vim ~/.zshrc
+: 1626572610:0;source ~/.zshrc
+: 1626572642:0;vim ~/.zshrc
+: 1626572653:0;vim ~/.config/starship.toml
+: 1626572658:0;source ~/.zshrc
+: 1626572683:0;ls
+: 1626572689:0;fzf
+: 1626572693:0;pwd
+: 1626572702:0;chezmoi clear
+: 1626572706:0;rm -rf Applications\ \(Parallels\)
+: 1626572707:0;ls
+: 1626572712:0;cd do
+: 1626572714:0;cd dotfiles
+: 1626572714:0;ls
+: 1626572715:0;cd ..
+: 1626572720:0;cd -
+: 1626572722:0;ls -lrta
+: 1626572729:0;kgp
+: 1626572736:0;clear
+: 1626572736:0;ls
+: 1626572738:0;history
+: 1626572745:0;celar
+: 1626572745:0;ls
+: 1626572747:0;clear
+: 1626572747:0;ls
+: 1626572761:0;cd gith
+: 1626572763:0;cd
+: 1626572764:0;cd github
+: 1626572765:0;ls
+: 1626572775:0;git clone https://github.com/nitishm/orkestra.git
+: 1626572779:0;ls
+: 1626572784:0;mkdir nitishm
+: 1626572788:0;mkdir azure
+: 1626572789:0;cd nitishm
+: 1626572794:0;git clone https://github.com/nitishm/orkestra.git
+: 1626572801:0;cd ../azure
+: 1626572802:0;cd ..
+: 1626572805:0;mv azure Azure
+: 1626572810:0;cd Azure
+: 1626572811:0;ls
+: 1626572821:0;git clone https://github.com/Azure/orkestra.git
+: 1626572833:0;ls
+: 1626572836:0;code .
+: 1626572843:0;vim ~/.zshrc
+: 1626572884:0;source ~/.zshrc
+: 1626572890:0;code .
+: 1626574443:0;cd github/nitishm/orkestra
+: 1626574446:0;code .
+: 1626574543:0;clear
+: 1626575344:0;cd github/Azure/orkestra
+: 1626575347:0;code .
+: 1626628325:0;brew install tmux
+: 1626628818:0;C
+: 1626628854:0;vim ~/tmux/.tmux
+: 1626628864:0;vim ~/tmux/.tmux.conf
+: 1626628908:0;vim ~/.zshrc
+: 1626628918:0;source ~/.zshrc
+: 1626628926:0;which tmux
+: 1626628963:0;cd ~/.oh-my-zsh/custom/plugins\
+git clone https://github.com/zpm-zsh/tmux
+: 1626628974:0;source ~/.zshrc
+: 1626628982:0;clear
+: 1626629014:0;tmux new testsession
+: 1626629029:0;tmux new -h
+: 1626629046:0;tmux new -s testsession
+: 1626629118:0;mv tmux/.tmux.conf ~
+: 1626629125:0;:source-file ~/.tmux.conf
+: 1626629127:0;~
+: 1626629145:0;:
+: 1626629147:0;quit
+: 1626629207:0;clear
+: 1626629333:0;brew cleanup -h
+: 1626629341:0;brew cleanup -n
+: 1626629353:0;brew cleanup 
+: 1626629368:0;vim ~/.zshrc
+: 1626629374:0;source ~/.zshrc
+: 1626629386:0;tmux new -s testsession
+: 1626629419:0;mkdir -p ~/.tmux/plugins
+: 1626629426:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+: 1626629430:0;vim ~/tmux/.tmux.conf
+: 1626629438:0;vim ~/.tmux.conf
+: 1626629456:0;tmux source ~/.tmux.conf
+: 1626629461:0;tmux new -s testsession
+: 1626629469:0;tmux attach -t testsession
+: 1626629528:0;clear
+: 1626629530:0;tmux attach -t testsession
+: 1626629533:0;tmux new -s testsession
+: 1626629579:0;vim ~/.tmux.conf
+: 1626629658:0;tmux new -s testsession
+: 1626629663:0;vim ~/.tmux.conf
+: 1626629678:0;tmux source ~/.tmux.conf
+: 1626629680:0;clear
+: 1626629681:0;ls
+: 1626629697:0;vim ~/.tmux.conf
+: 1626629719:0;clear
+: 1626629730:0;tmux ls
+: 1626629736:0;tmux list-sessions
+: 1626629743:0;tmux new -s default
+: 1626629747:0;clear
+: 1626629747:0;ls
+: 1626629901:0;clear
+: 1626629902:0;ls
+: 1626629977:0;clear
+: 1626630000:0;tmux attach -t default
+: 1626630093:0;clear
+: 1626630095:0;cd github/Azure/orkestra
+: 1626630102:0;cd github/nitishm/orkestra
+: 1626630673:0;tmux attach -t default
+: 1626630684:0;tmux l
+: 1626630686:0;tmux ls
+: 1626630689:0;tmux new -s default
+: 1626630694:0;clear
+: 1626630694:0;ls
+: 1626630720:0;cp ~/.tmux.conf tmux
+: 1626630732:0;tmux ls
+: 1626630735:0;tmux new -s default
+: 1626630758:0;tmux -CC
+: 1626630789:0;tmux -CC attach -t default
+: 1626630801:0;vim ~/.tmux.conf
+: 1626630814:0;tmux -CC attach -t default
+: 1626630841:0;tmux -CC new -s foobar
+: 1626630849:0;cp ~/.tmux.conf tmux
+: 1626630854:0;tmux -CC new -s foobar
+: 1626630863:0;tmux -CC new -s dude
+: 1626630870:0;vim ~/.tmux.conf
+: 1626630896:0;tmux -CC new -s dude
+: 1626630902:0;tmux -CC new -s dudei
+: 1626630910:0;cp ~/.tmux.conf tmux
+: 1626630914:0;tmux -CC new -s dudei
+: 1626630916:0;tmux -CC new -s dudeis
+: 1626630928:0;tmux ls
+: 1626630935:0;tmux attach -t default
+: 1626630960:0;tmux -CC attach -t default
+: 1626630968:0;tmux -CC attach -t foobar
+: 1626631009:0;cd github/nitishm/orkestra
+: 1626631015:0;cd github/Azure/orkestra
+: 1626631034:0;tmux -CC attach -t foobar
+: 1626631098:0;clear
+: 1626631099:0;ls
+: 1626631139:0;brew install python3 ctags cmake\
+
+: 1626631253:0;curl -sLf https://raw.githubusercontent.com/LER0ever/EverVim/master/Boot-EverVim.sh | bash
+: 1626631258:0;nvim
+: 1626631513:0;ks
+: 1626631514:0;ls
+: 1626631516:0;nvim .
+: 1626631872:0;clear
+: 1626631968:0;brew install --cask raycast\
+
+: 1626634212:0;cd
+: 1626634223:0;mkdir iterm-profiles
+: 1626634224:0;cd iterm-profiles
+: 1626634225:0;ls
+: 1626634237:0;wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/AdventureTime.itermcolors
+: 1626713701:0;bvm
+: 1626713704:0;ssh nitish_malhotra@10.15.15.122
+: 1626717908:0;tmux -CC attach -t foobar
+: 1626717918:0;tmux ls
+: 1626752633:0;chezmoi
+: 1626752642:0;brew install chezmoi
+: 1626752685:0;chezmoi --help
+: 1626752717:0;chezmoi init
+: 1626752724:0;ls -lrta 
+: 1626752734:0;chezmoi add ~/.zshrc
+: 1626752741:0;chezmoi add ~/.zsh_history

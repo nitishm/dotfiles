@@ -1,0 +1,4 @@
+_mac_apps=( ${(Q)"${(z)$(<<\EO:_mac_apps
+'/Applications/Alfred 4.app' '/Applications/Docker.app' '/Applications/GoLand.app' '/Applications/Hyper.app' '/Applications/Microsoft Edge.app' '/Applications/Safari.app' '/Applications/Slack.app' '/Applications/Spectacle.app' '/Applications/Visual Studio Code.app' '/Applications/iTerm.app' '/Applications/zoom.us.app' 'grep -l APPL'
+EO:_mac_apps
+)}"} )

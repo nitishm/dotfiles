@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 62648d71bb05116287206d83181f9daa5a59ba67 Nitish Malhotra <nitish_malhotra@Nitishs-MBP-2.fios-router.home> 1593732932 -0400	clone: from https://github.com/ohmyzsh/ohmyzsh.git
+62648d71bb05116287206d83181f9daa5a59ba67 db3d05fe7184a523fe4aba120bea962114424573 Nitish Malhotra <nitish_malhotra@nitishMBP.fios-router.home> 1595116576 -0400	rebase finished: refs/heads/master onto db3d05fe7184a523fe4aba120bea962114424573
+db3d05fe7184a523fe4aba120bea962114424573 708ea42384d378343a590fc34a3dee536a1651df Nitish Malhotra <nitish.malhotra@gmail.com> 1599520283 -0400	rebase finished: refs/heads/master onto 708ea42384d378343a590fc34a3dee536a1651df
+708ea42384d378343a590fc34a3dee536a1651df dac3314c76e799cddbbe5cf63870d31861626059 Nitish Malhotra <nitish.malhotra@gmail.com> 1626569690 -0700	pull --rebase --stat origin master (finish): refs/heads/master onto dac3314c76e799cddbbe5cf63870d31861626059
