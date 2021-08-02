@@ -1,0 +1,42 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: gadget
+spec:
+  version: v0.2.0
+  homepage: https://github.com/kinvolk/inspektor-gadget
+  shortDescription: Gadgets for debugging and introspecting apps
+  description: |
+    Inspektor Gadget is a collection of tools (or gadgets) for developers of
+    Kubernetes applications.
+
+    Inspektor Gadget is deployed to each node as a privileged DaemonSet.
+    It uses in-kernel BPF helper programs to monitor events mainly related to
+    syscalls from userspace programs in a pod. The BPF programs are run by
+    the kernel and gather the log data. Inspektor Gadget's userspace utilities
+    fetch the log data from ring buffers and display it. What BPF programs are
+    and how Inspektor Gadget uses them is briefly explained in the architecture
+    document:
+    https://github.com/kinvolk/inspektor-gadget/blob/master/Documentation/architecture.md
+  caveats: |
+    Inspektor Gadget needs to be deployed to each node:
+
+    $ kubectl gadget deploy | kubectl apply -f -
+
+    Read the documentation available at https://github.com/kinvolk/inspektor-gadget
+    to get more information about the server side installation process.
+  platforms:
+  - selector:
+      matchLabels:
+        os: linux
+        arch: amd64
+    uri: https://github.com/kinvolk/inspektor-gadget/releases/download/v0.2.0/inspektor-gadget-linux-amd64.tar.gz
+    sha256: b2d5e70a5caa4adfa3918e8a70702cd4a118d5ebafc091d5b4d7ec4ea0caf390
+    bin: kubectl-gadget
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/kinvolk/inspektor-gadget/releases/download/v0.2.0/inspektor-gadget-darwin-amd64.tar.gz
+    sha256: b9bc73a16cb81b56107ecbc6256b01c2f3b91f184a03bd97056296e3d4479311
+    bin: kubectl-gadget

@@ -1880,3 +1880,280 @@ git clone https://github.com/zpm-zsh/tmux
 : 1626752724:0;ls -lrta 
 : 1626752734:0;chezmoi add ~/.zshrc
 : 1626752741:0;chezmoi add ~/.zsh_history
+: 1626752753:0;chezmoi add .EverVim
+: 1626752788:0;chezmoi remove
+: 1626752791:0;chezmoi remove .EverVim
+: 1626752802:0;chezmoi add .EverVim.vimrc
+: 1626752812:0;chezmoi .oh-my-zsh
+: 1626752817:0;chezmoi add .oh-my-zsh
+: 1626752886:0;chezmoi .tmux.conf
+: 1626752891:0;chezmoi add .tmux.conf
+: 1626752916:0;chezmoi
+: 1626752920:0;chezmoi status
+: 1626752946:0;chezmoi add ~/.zshrc
+: 1626752952:0;chezmoi status
+: 1626752962:0;ls -lrta
+: 1626752971:0;chezmoi add .EverVim.vimrc
+: 1626752973:0;chezmoi add .EverVim
+: 1626753109:0;chezmoi remove .EverVim
+: 1626753195:0;ls dotfiles
+: 1626753199:0;ls -lrta dotfiles
+: 1626753216:0;cat ~/.zshrc
+: 1626753233:0;chezmoi add dotfiles
+: 1626753249:0;chezmoi cd
+: 1626753256:0;chezmoi diff
+: 1626753285:0;git status
+: 1626753289:0;git add -A
+: 1626753302:0;git commit -m "Initial commit"
+: 1626753320:0;git remote add origin https://github.com/nitishm/dotfiles.git
+: 1626753328:0;git branch -M main
+: 1626753335:0;git push -u origin main
+: 1626753420:0;git push origin main
+: 1626753431:0;ls
+: 1626753436:0;git status
+: 1626753438:0;git push
+: 1626753542:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753549:0;git login
+: 1626753553:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753562:0;git config --edit
+: 1626753583:0;git config user.name "Nitish Malhotra"
+: 1626753590:0;git config user.password RPan@2020
+: 1626753602:0;git config user.email "nitishm@microsoft.com"
+: 1626753604:0;git push
+: 1626753626:0;git config user.name "nitishm"
+: 1626753630:0;git push
+: 1626753694:0;git config --edit
+: 1626753714:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753729:0;git config --edit
+: 1626753747:0;git remote add origin git@github.com:nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753765:0;ls
+: 1626753800:0;git remote add origin git@github.com:nitishm/dotfiles.git
+: 1626753820:0;git remote add origin git@github.com:nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753828:0;vim ~/.ssh/known_hosts
+: 1626753835:0;git remote add origin git@github.com:nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753895:0;vim .git/config
+: 1626753909:0;git remote add origin git@github.com:nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626753913:0;vim .git/config
+: 1626753920:0;git config -l
+: 1626754112:0;rm -rf .git
+: 1626754127:0;chezmoi cd
+: 1626754131:0;git status
+: 1626754137:0;git add .
+: 1626754144:0;ls -lrta
+: 1626754159:0;mv dotfiles df
+: 1626754176:0;git clone https://github.com/nitishm/dotfiles.git
+: 1626754186:0;mv df/* dotfiles
+: 1626754188:0;rm -rf df
+: 1626754190:0;cd dotfiles
+: 1626754192:0;git add -A
+: 1626754195:0;git comm
+: 1626754196:0;git push
+: 1626754208:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1626754218:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M master\
+git push -u origin main
+: 1626754224:0;git status
+: 1626754231:0;git log
+: 1626754234:0;ls
+: 1626754237:0;ls -lrta
+: 1626754245:0;cd
+: 1626754417:0;chezmoi init
+: 1626754425:0;chezmoi add ~/.zshrc
+: 1626754431:0;chezmoi cd
+: 1626754433:0;git status
+: 1626754445:0;cat dot_zshrc
+: 1626754450:0;git add -A
+: 1626754458:0;git add -
+: 1626754460:0;git add -A
+: 1626754466:0;git status
+: 1626754473:0;git checkout main
+: 1626754478:0;git add -A
+: 1626754483:0;ls
+: 1626754489:0;rm -rf dotfiles
+: 1626754491:0;cd
+: 1626754493:0;chezmoi cd
+: 1626754495:0;ls
+: 1626754498:0;git status
+: 1626754502:0;cd ..
+: 1626754506:0;chezmoi add ~/.zshrc
+: 1626754509:0;chezmoid cd
+: 1626754510:0;chezmoi cd
+: 1626754511:0;ls
+: 1626754514:0;ls-lrta
+: 1626754516:0;ls -lrta
+: 1626754522:0;git add -A
+: 1626754526:0;git commit -m "Initial commit"
+: 1626754531:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M master\
+git push -u origin main
+: 1626754540:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M master\
+git push -u origin master
+: 1626754618:0;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
+: 1626754676:0;git remote add origin https://github.com/nitishm/dotfiles.git\
+git branch -M master\
+git push -u origin master
+: 1626755213:0;cd
+: 1626755216:0;ls -lrta
+: 1626755243:0;ls .config
+: 1627330557:0;cd github
+: 1627330564:0;mkdir rust-lang
+: 1627330566:0;cd rust-lang
+: 1627330569:0;git clone https://github.com/rust-lang/rustlings.git
+: 1627330584:0;ls
+: 1627330585:0;cd rustlings
+: 1627330586:0;ls
+: 1627330589:0;./install.sh
+: 1627330607:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+: 1627330663:0;./install.sh
+: 1627330683:0;nvim ~/.zshrc
+: 1627330699:0;source ~/.zshrc
+: 1627330715:0;./install.sh
+: 1627330782:0;xcode-select --install
+: 1627330819:0;rustlings
+: 1627331584:0;./install.sh
+: 1627331651:0;rustlings
+: 1627331658:0;clear
+: 1627331663:0;rustlings
+: 1627331673:0;cd github/rust-lang/rustlings
+: 1627331674:0;ls
+: 1627331676:0;cd rustlings
+: 1627331679:0;rustling
+: 1627331680:0;rustlings
+: 1627331690:0;code .
+: 1627331697:0;rustlings watch
+: 1627331815:0;rustlings 
+: 1627331820:0;rustlings watch
+: 1627331894:0;ls
+: 1627331897:0;rustlings watch
+: 1627335261:0;rustlings hint move_semantics2
+: 1627335304:0;rustlings watch
+: 1627335367:0;rustlings hint move_semantics2
+: 1627335398:0;rustlings watch
+: 1627335778:0;rustlings hint move_semantics5
+: 1627335834:0;rustlings watch
+: 1627336240:0;rustlings hint primitive_types3
+: 1627337242:0;rustlings hint structs1
+: 1627352452:0;cd
+: 1627352455:0;cd temp
+: 1627352462:0;mkdir rust-playground
+: 1627352465:0;cd rust-playground/
+: 1627352467:0;cargo init
+: 1627352470:0;ls
+: 1627352472:0;cd src
+: 1627352473:0;ls
+: 1627352475:0;nvim main.rs
+: 1627352556:0;ls
+: 1627352563:0;rustup main.rs
+: 1627352577:0;cargo main.rs
+: 1627352582:0;rustc main.rs
+: 1627352589:0;:b1
+: 1627353172:0;cd rust-playground
+: 1627353173:0;ls
+: 1627353181:0;rustc src/main.rs
+: 1627353473:0;rustc src/main.rs --help
+: 1627353477:0;rustc src/main.rs
+: 1627353518:0;rustc --help
+: 1627353530:0;ls
+: 1627353532:0;./main
+: 1627353546:0;ls
+: 1627353548:0;rustc --help
+: 1627353550:0;rustc src/main.rs
+: 1627353605:0;OBOA
+: 1627353607:0;rustc src/main.rs
+: 1627353941:0;./main
+: 1627353961:0;rustc src/main.rs
+: 1627353963:0;./main
+: 1627354032:0;rustc src/main.rs
+: 1627354077:0;./main
+: 1627354079:0;rustc src/main.rs
+: 1627354080:0;./main
+: 1627354101:0;rustc src/main.rs
+: 1627354102:0;./main
+: 1627669374:0;rustlings watch
+: 1627669985:0;rustlings hint hashmap2
+: 1627672663:0;rustlings hint errors1
+: 1627673570:0;rustlings hint macros2
+: 1627943420:0;cd github/nitishm
+: 1627943449:0;cp  -r /Volumes/ADATA\ SE800/github/nitishm/orkestra-workflow-executor .
+: 1627943453:0;cd orkestra
+: 1627943455:0;cd ..
+: 1627943457:0;cd orkestra-workflow-executor
+: 1627943458:0;git status
+: 1627943462:0;git add -A
+: 1627943466:0;git push
+: 1627943471:0;git pull
+: 1627943477:0;git push
+: 1627943486:0;git log
+: 1627943540:0;ls .vscode/settings.json
+: 1627943557:0;cd executors/keptn
+: 1627943558:0;code .
+: 1627943646:0;az account set --subscription 7411a745-a787-44f2-86a9-e4d3764ae621
+: 1627943665:0;brew install azure-cli
+: 1627944295:0;chezmoi 
+: 1627944306:0;chezmoi status
+: 1627944433:0;cat ~/.config/chezmoi/
+: 1627944435:0;cat ~/.config/chezmoi/chezmoistate.boltdb 
+: 1627944442:0;chezmoi push
+: 1627944446:0;chezmoi dif
+: 1627944447:0;chezmoi diff
+: 1627944497:0;chezmoi add
+: 1627944503:0;chezmoi git
+: 1627944507:0;chezmoi git add -A
+: 1627944513:0;chezmoi git push
+: 1627944523:0;chezmoi git commit
+: 1627944532:0;chezmoi git 
+: 1627944619:0;chezmoi chd
+: 1627944621:0;chezmoi cd
+: 1627944623:0;ls
+: 1627944624:0;ls -lrta
+: 1627944629:0;cat .git/config
+: 1627944645:0;chezmoi status
+: 1627944786:0;chezmoi doctor
+: 1627944811:0;chezmoi config
+: 1627944825:0;git status
+: 1627944827:0;git diff
+: 1627944829:0;git log
+: 1627944836:0;chezmoi status
+: 1627944851:0;chezmoi merge
+: 1627944856:0;chezmoi merge --help
+: 1627944894:0;chezmoi update
+: 1627944932:0;chezmoi git
+: 1627944934:0;chezmoi git diff
+: 1627944945:0;chezmoi apply --dry-run
+: 1627944976:0;s
+: 1627945046:0;chezmoi edit
+: 1627945062:0;chezmoi unmanaged
+: 1627945081:0;chezmoi add ~/.oh-my-zsh
+: 1627945109:0;chezmoi add /Users/nitish_malhotra/.SpaceVim /Users/nitish_malhotra/.SpaceVim.d 
+: 1627945133:6;chezmoi add ~/.tmux
+: 1627945147:0;chezmoi add ~/.ssh/
+: 1627945164:0;chezmoi add ~/.krew
+: 1627945175:0;chezmoi add ~/.ssh/
+: 1627945178:0;chezmoi add ~/.tmux
+: 1627945193:0;chezmoi add ~/.tmux.conf
+: 1627945202:0;chezmoi add ~/.zshrc
+: 1627945206:0;chezmoi add /Users/nitish_malhotra/.zsh_history /Users/nitish_malhotra/.zshenv /Users/nitish_malhotra/.zshrc 
+: 1627945217:0;chezmoi add /Users/nitish_malhotra/.vim /Users/nitish_malhotra/.vim-bookmarks /Users/nitish_malhotra/.vim_back /Users/nitish_malhotra/.vimbackup /Users/nitish_malhotra/.viminfo /Users/nitish_malhotra/.vimswap /Users/nitish_malhotra/.vimundo /Users/nitish_malhotra/.vimviews 
+: 1627945242:0;chezmoi add ~/.anyconnect
+: 1627945247:0;chezmoi push
+: 1627945253:0;chezmoi status
+: 1627945282:0;chezmoi commit
+: 1627945298:0;chezmoi edit-config
+: 1627945329:0;chezmoi re-add ~/.oh-my-zsh

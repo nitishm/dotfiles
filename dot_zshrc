@@ -123,3 +123,4 @@ eval "$(starship init zsh)"
 
 alias code="open -a /Applications/Visual\ Studio\ Code.app/"
 
+export PATH=$PATH:$HOME/.cargo/bin

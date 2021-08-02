@@ -1,0 +1,32 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: score
+spec:
+  version: v1.8.1
+  homepage: https://github.com/zegl/kube-score
+  platforms:
+    - selector:
+        matchLabels:
+          os: darwin
+      uri: https://github.com/zegl/kube-score/releases/download/v1.8.1/kube-score_1.8.1_darwin_amd64.tar.gz
+      sha256: 61ecff82d63e979b9a4a1d0ce9a982aa0d681e6a3ff6b19acc9930ebe879b731
+      files:
+        - from: "kube-score"
+          to: .
+        - from: "LICENSE"
+          to: .
+      bin: kube-score
+    - selector:
+        matchLabels:
+          os: linux
+      uri: https://github.com/zegl/kube-score/releases/download/v1.8.1/kube-score_1.8.1_linux_amd64.tar.gz
+      sha256: db1881bcb842b569a745af422937ba9f9f076656a9df7f653a4fe86f0d57c416
+      files:
+        - from: "kube-score"
+          to: .
+        - from: "LICENSE"
+          to: .
+      bin: kube-score
+  shortDescription: Kubernetes static code analysis.
+  description: Kubernetes object analysis with recommendations for improved reliability and security.

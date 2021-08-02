@@ -1,0 +1,49 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: kyverno
+spec:
+  version: v1.1.9
+  homepage: https://github.com/nirmata/kyverno
+  platforms:
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/nirmata/kyverno/releases/download/v1.1.9/kyverno-cli_v1.1.9_linux_x86_64.tar.gz
+      sha256: d8e8ac17b88a0085d448fdbdc7ed8c2a19421f7d17721830c2a2d6f52a490c02
+      files:
+        - from: kyverno
+          to: .
+        - from: LICENSE
+          to: .
+      bin: kyverno
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/nirmata/kyverno/releases/download/v1.1.9/kyverno-cli_v1.1.9_darwin_x86_64.tar.gz
+      sha256: 4aae445fc9675f018c8439fd9f36d1b79b36cb0d574efaab05ef7f9ffebf5d86
+      files:
+        - from: kyverno
+          to: .
+        - from: LICENSE
+          to: .
+      bin: kyverno
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/nirmata/kyverno/releases/download/v1.1.9/kyverno-cli_v1.1.9_windows_x86_64.zip
+      sha256: 4f21a5b7311f7441419d89dbc485589a715e6c4f911420f18500fcc7556e89c0
+      files:
+        - from: kyverno.exe
+          to: .
+        - from: LICENSE
+          to: .
+      bin: kyverno.exe
+  shortDescription: Kyverno is a policy engine for kubernetes
+  description: |+2
+    Kyverno is used to test kyverno policies and apply policies to resources files
+  caveats: |
+    The plugin requires access to create Policy and CustomResources

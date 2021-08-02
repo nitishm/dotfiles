@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/nitish_malhotra/github/istio/istioctl/cmd/istioctl'
+let g:netrw_dirhist_3='/Users/nitish_malhotra/github/istio/istioctl/cmd'
+let g:netrw_dirhist_2='/Users/nitish_malhotra/github/istio/istioctl'
+let g:netrw_dirhist_1='/Users/nitish_malhotra/github/istio'

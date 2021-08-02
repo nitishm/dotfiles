@@ -1,0 +1,56 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: auth-proxy
+spec:
+  homepage: https://github.com/int128/kauthproxy
+  shortDescription: Authentication proxy to a pod or service
+  description: |
+    This is a kubectl plugin to forward a local port to a pod or service via the authentication proxy.
+    It gets a token from the current credential plugin (e.g. aws-iam-authenticator or kubelogin).
+    Then it appends the authorization header to HTTP requests, like `authorization: Bearer token`.
+    All traffic is routed by the authentication proxy and port forwarder as follows:
+      [browser] -> [authentication proxy] -> [port forwarder] -> [pod]
+
+  caveats: |
+    You need to configure authentication in the kubeconfig.
+    See https://github.com/int128/kauthproxy for more.
+
+  version: v1.0.1
+  platforms:
+    - uri: https://github.com/int128/kauthproxy/releases/download/v1.0.1/kauthproxy_linux_amd64.zip
+      sha256: "71b232f2e8e953321b29eb6076305e2504479dc342ffe307e4e81be61c25b168"
+      bin: kauthproxy
+      files:
+        - from: kauthproxy
+          to: .
+        - from: LICENSE
+          to: .
+      selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+    - uri: https://github.com/int128/kauthproxy/releases/download/v1.0.1/kauthproxy_darwin_amd64.zip
+      sha256: "096aaa92eb423a7b40b18e034d13bb13bdd68266535369900db32b8ec415cb07"
+      bin: kauthproxy
+      files:
+        - from: kauthproxy
+          to: .
+        - from: LICENSE
+          to: .
+      selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+    - uri: https://github.com/int128/kauthproxy/releases/download/v1.0.1/kauthproxy_windows_amd64.zip
+      sha256: "fb14dcb059e95dcebd4c7d8591eb93d89052ee1919e896be7a396eefa839ef21"
+      bin: kauthproxy.exe
+      files:
+        - from: kauthproxy.exe
+          to: .
+        - from: LICENSE
+          to: .
+      selector:
+        matchLabels:
+          os: windows
+          arch: amd64
