@@ -2157,3 +2157,5 @@ git push -u origin master
 : 1627945282:0;chezmoi commit
 : 1627945298:0;chezmoi edit-config
 : 1627945329:0;chezmoi re-add ~/.oh-my-zsh
+: 1627945443:0;chezmoi managed
+: 1627945460:0;chezmoi re-add ~/.zshrc
