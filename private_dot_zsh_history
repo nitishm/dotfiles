@@ -2159,3 +2159,94 @@ git push -u origin master
 : 1627945329:0;chezmoi re-add ~/.oh-my-zsh
 : 1627945443:0;chezmoi managed
 : 1627945460:0;chezmoi re-add ~/.zshrc
+: 1627945500:0;brew install azure-cli
+: 1627945551:0;az
+: 1627945554:0;az account set --subscription 7411a745-a787-44f2-86a9-e4d3764ae621
+: 1627945570:0;az aks get-credentials --resource-group orkestraRG --name orkestra
+: 1627945579:0;az login
+: 1627945594:0;az account set --subscription 7411a745-a787-44f2-86a9-e4d3764ae621
+: 1627945597:0;az aks get-credentials --resource-group orkestraRG --name orkestra
+: 1627945603:0;cd
+: 1627945607:0;cd github/nitishm/orkestra-workflow-executor
+: 1627945727:0;go get -v ./...
+: 1627945831:0;which go
+: 1627945833:0;go version
+: 1627945836:0;go env
+: 1627946024:0;ehich go
+: 1627946026:0;which go
+: 1627946028:0;go version
+: 1627946222:0;pef
+: 1627946224:0;vlrst
+: 1627946224:0;ld
+: 1627946226:0;clear
+: 1627946227:0;pwd
+: 1627946513:0;ls -lrat
+: 1627946519:0;cat __debug_bin
+: 1627946524:0;rm -rf __debug_bin
+: 1627946606:0;ls
+: 1627946608:0;ls -lrta
+: 1627946617:0;cp pkg/keptn/testwith/keptn-config.json .
+: 1627946682:0;kg svc -n orkestra
+: 1627946954:0;ls -lrta
+: 1627946958:0;cd .vscode
+: 1627946959:0;ls
+: 1627946960:0;ls -lrta
+: 1627946963:0;cat launch.json
+: 1627946977:0;cd ..
+: 1627946980:0;rm -rf keptn-config.json
+: 1627946991:0;rm -rf pkg/keptn/testwith/keptn-config.json
+: 1627947042:0;k9s
+: 1627947047:0;brew install k9s
+: 1627947051:0;kubectl edit configmap -n default foobar
+: 1627947241:0;curl -sL https://get.keptn.sh | bash
+: 1627947276:0;keptn configure bridge
+: 1627947431:0;kkeptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627947433:0;keptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627947436:0;keptn auth
+: 1627947516:0;export KEPTN_ENDPOINT=http://52.247.18.168/api
+: 1627947519:0;export KEPTN
+: 1627947538:0;export KEPTN_API_TOKEN=$(kubectl get secret keptn-api-token -n orkestra -ojsonpath='{.data.keptn-api-token}' | base64 --decode)\
+
+: 1627947543:0;keptn auth --endpoint=$KEPTN_ENDPOINT --api-token=$KEPTN_API_TOKEN\
+
+: 1627947549:0;keptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627947702:0;keptn configure monitoring prometheus --project=webserver-app --service=webserver-app
+: 1627947709:0;keptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627947821:0;keptn
+: 1627947837:0;keptn get service
+: 1627947842:0;keptn get service --help
+: 1627947871:0;keptn get service webserver-app --project webserver-app -o=json
+: 1627947906:0;keptn configure monitoring prometheus --project=app-webserver --service=app-webserver
+: 1627947912:0;keptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627948113:0;keptn delete project app-webserver
+: 1627948119:0;keptn delete project hey
+: 1627948137:0;keptn create project hey --shipyard=./shipyard.yaml                     \
+keptn create service webservers --project=hey      \
+keptn configure monitoring prometheus --project=hey --service=webservers\
+keptn add-resource --project=hey --service=webservers --resource=slo.yaml --resourceUri=slo.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=prometheus/sli.yaml  --resourceUri=prometheus/sli.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=job/config.yaml  --resourceUri=job/config.yaml --stage=dev
+: 1627948141:0;ls
+: 1627948144:0;cd pkg/keptn
+: 1627948145:0;ls
+: 1627948148:0;keptn create project hey --shipyard=./shipyard.yaml                     \
+keptn create service webservers --project=hey      \
+keptn configure monitoring prometheus --project=hey --service=webservers\
+keptn add-resource --project=hey --service=webservers --resource=slo.yaml --resourceUri=slo.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=prometheus/sli.yaml  --resourceUri=prometheus/sli.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=job/config.yaml  --resourceUri=job/config.yaml --stage=dev
+: 1627948152:0;cd testwith
+: 1627948154:0;keptn create project hey --shipyard=./shipyard.yaml                     \
+keptn create service webservers --project=hey      \
+keptn configure monitoring prometheus --project=hey --service=webservers\
+keptn add-resource --project=hey --service=webservers --resource=slo.yaml --resourceUri=slo.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=prometheus/sli.yaml  --resourceUri=prometheus/sli.yaml --stage=dev\
+keptn add-resource --project=hey --service=webservers --resource=job/config.yaml  --resourceUri=job/config.yaml --stage=dev
+: 1627948167:0;kkeptn trigger evaluation --project=hey --service=webservers --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627948168:0;keptn trigger evaluation --project=hey --service=webservers --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627948503:0;keptn configure monitoring prometheus --project=app-webserver --service=app-webserver
+: 1627948518:0;keptn trigger evaluation --project=app-webserver --service=app-webserver --timeframe=5m --stage dev --start $(date -u +"%Y-%m-%dT%T")
+: 1627947173:1351;k9s
+: 1627948525:0;k9s
+: 1627959049:0;cat ~/.config/starship.toml
+: 1627959065:0;chezmoi re-add ~/.config/starship.toml
